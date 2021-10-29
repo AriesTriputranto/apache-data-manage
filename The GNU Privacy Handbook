@@ -1,0 +1,1807 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.gnupg.org/gph/en/manual.html#AEN335
+Subject: The GNU Privacy Handbook
+Date: Fri, 29 Oct 2021 03:47:06 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----"
+
+
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----
+Content-Type: text/html
+Content-ID: <frame-00ACEE75E69F5DDABF2BA7FC73E5D9F6@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gnupg.org/gph/en/manual.html#AEN335
+
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>The GNU Privacy Handbook</title><meta name="GENERATOR" content="Modular DocBook HTML Stylesheet Version 1.54"><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head><body class="BOOK" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="BOOK"><a name="AEN1"></a><div class="TITLEPAGE"><h1 class="TITLE"><a name="AEN2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buku Pegangan Privasi GNU</font></font></a></h1><p class="COPYRIGHT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hak Cipta © 1999 oleh </font></font><span class="HOLDER"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The Free Software Foundation</font></font></span></p><div><div class="ABSTRACT"><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Izin diberikan untuk menyalin, mendistribusikan dan/atau memodifikasi dokumen ini di bawah ketentuan Lisensi Dokumentasi Bebas GNU, Versi 1.1 atau versi yang lebih baru yang diterbitkan oleh Free Software Foundation; </font><font style="vertical-align: inherit;">tanpa Bagian Invarian, tanpa Teks Sampul Depan, dan tanpa Teks Sampul Belakang. </font><font style="vertical-align: inherit;">Salinan lisensi disertakan dalam bagian berjudul "Lisensi Dokumentasi Bebas GNU".</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Silakan ajukan pertanyaan, laporan bug, atau saran mengenai manual ini kepada pengelola, Mike Ashley ( </font></font><tt class="EMAIL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&lt; </font></font><a href="mailto:jashley@acm.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jashley@acm.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &gt;</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ). </font><font style="vertical-align: inherit;">Saat merujuk ke manual, harap tentukan versi manual yang Anda miliki dengan menggunakan string versi ini: </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$Name: v1_1 $</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p><p>Contributors to this manual include Matthew Copeland, Joergen Grahn,
+and David A. Wheeler.
+J Horacio MG has translated the manual to Spanish.</p><p></p></div></div><hr></div><div class="TOC"><dl><dt><b>Table of Contents</b></dt><dt>1. <a href="https://www.gnupg.org/gph/en/manual.html#INTRO">Getting Started</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN26">Generating a new keypair</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#REVOCATION">Generating a revocation certificate</a></dt></dl></dd><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN57">Exchanging keys</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN65">Exporting a public key</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN84">Importing a public key</a></dt></dl></dd><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN111">Encrypting and decrypting documents</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN136">Making and verifying signatures</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN153">Clearsigned documents</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN161">Detached signatures</a></dt></dl></dd></dl></dd><dt>2. <a href="https://www.gnupg.org/gph/en/manual.html#CONCEPTS">Concepts</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN185">Symmetric ciphers</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN196">Public-key ciphers</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN210">Hybrid ciphers</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN216">Digital signatures</a></dt></dl></dd><dt>3. <a href="https://www.gnupg.org/gph/en/manual.html#MANAGEMENT">Key Management</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN244">Managing your own keypair</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN267">Key integrity</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN282">Adding and deleting key components</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN305">Revoking key components</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN329">Updating a key's expiration time</a></dt></dl></dd><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN335">Validating other keys on your public keyring</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN346">Trust in a key's owner</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN385">Using trust to validate keys</a></dt></dl></dd><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN464">Distributing keys</a></dt></dl></dd><dt>4. <a href="https://www.gnupg.org/gph/en/manual.html#WISE">Daily use of GnuPG</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN494">Defining your security needs</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN508">Choosing a key size</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN513">Protecting your private key</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN526">Selecting expiration dates and using subkeys</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN533">Managing your web of trust</a></dt></dl></dd><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN554">Building your web of trust</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN564">Using GnuPG legally</a></dt></dl></dd><dt>5. <a href="https://www.gnupg.org/gph/en/manual.html#MODULES">Topics</a></dt><dd><dl><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN574">Writing user interfaces</a></dt></dl></dd><dt>A. <a href="https://www.gnupg.org/gph/en/manual.html#GFDL">GNU Free Documentation License</a></dt><dd><dl><dt>0. <a href="https://www.gnupg.org/gph/en/manual.html#AEN604">PREAMBLE</a></dt><dt>1. <a href="https://www.gnupg.org/gph/en/manual.html#AEN609">APPLICABILITY AND DEFINITIONS</a></dt><dt>2. <a href="https://www.gnupg.org/gph/en/manual.html#AEN619">VERBATIM COPYING</a></dt><dt>3. <a href="https://www.gnupg.org/gph/en/manual.html#AEN623">COPYING IN QUANTITY</a></dt><dt>4. <a href="https://www.gnupg.org/gph/en/manual.html#AEN629">MODIFICATIONS</a></dt><dt>5. <a href="https://www.gnupg.org/gph/en/manual.html#AEN665">COMBINING DOCUMENTS</a></dt><dt>6. <a href="https://www.gnupg.org/gph/en/manual.html#AEN670">COLLECTIONS OF DOCUMENTS</a></dt><dt>7. <a href="https://www.gnupg.org/gph/en/manual.html#AEN674">AGGREGATION WITH INDEPENDENT WORKS</a></dt><dt>8. <a href="https://www.gnupg.org/gph/en/manual.html#AEN678">TRANSLATION</a></dt><dt>9. <a href="https://www.gnupg.org/gph/en/manual.html#AEN681">TERMINATION</a></dt><dt>10. <a href="https://www.gnupg.org/gph/en/manual.html#AEN684">FUTURE REVISIONS OF THIS LICENSE</a></dt><dt><a href="https://www.gnupg.org/gph/en/manual.html#AEN689">How to use this License for your documents</a></dt></dl></dd></dl></div><div class="LOT"><dl class="LOT"><dt><b>List of Figures</b></dt><dt>3-1. <a href="https://www.gnupg.org/gph/en/manual.html#WOT-EXAMPLES">A hypothetical web of trust</a></dt></dl></div><div class="CHAPTER"><hr><h1><a name="INTRO">Chapter 1. Getting Started</a></h1><p>GnuPG is a tool for secure communication.
+This chapter is a quick-start guide that covers the core functionality
+of GnuPG.
+This includes keypair creation, exchanging and verifying keys, encrypting
+and decrypting documents, and authenticating documents with digital
+signatures.
+It does not explain in detail the concepts behind public-key cryptography,
+encryption, and digital signatures.
+This is covered in Chapter <a href="https://www.gnupg.org/gph/en/manual.html#CONCEPTS">2</a>.
+It also does not explain how to use GnuPG wisely.
+This is covered in Chapters <a href="https://www.gnupg.org/gph/en/manual.html#MANAGEMENT">3</a> and 
+<a href="https://www.gnupg.org/gph/en/manual.html#WISE">4</a>.</p><p>GnuPG uses public-key cryptography so that users may communicate securely.
+In a public-key system, each user has a pair of keys consisting of
+a <i class="FIRSTTERM">private key</i> and a <i class="FIRSTTERM">public key</i>.
+A user's private key is kept secret; it need never be revealed.
+The public key may be given to anyone with whom the user wants to
+communicate.
+GnuPG uses a somewhat more sophisticated scheme in which a user has
+a primary keypair and then zero or more additional subordinate keypairs.
+The primary and subordinate keypairs are bundled to facilitate key
+management and the bundle can often be considered simply as one keypair.</p><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN26">Generating a new keypair</a></h1><p>The command-line option <tt class="OPTION">--gen-key</tt>
+is used to create a new primary keypair.
+
+</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --gen-key</b></tt><font></font>
+gpg (GnuPG) 0.9.4; Copyright (C) 1999 Free Software Foundation, Inc.<font></font>
+This program comes with ABSOLUTELY NO WARRANTY.<font></font>
+This is free software, and you are welcome to redistribute it<font></font>
+under certain conditions. See the file COPYING for details.<font></font>
+<font></font>
+Please select what kind of key you want:<font></font>
+   (1) DSA and ElGamal (default)<font></font>
+   (2) DSA (sign only)<font></font>
+   (4) ElGamal (sign and encrypt)<font></font>
+Your selection?</pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+
+GnuPG mampu membuat beberapa jenis keypairs yang berbeda, tetapi kunci utama harus mampu membuat tanda tangan. </font><font style="vertical-align: inherit;">Karena itu, hanya ada tiga opsi. </font><font style="vertical-align: inherit;">Opsi 1 sebenarnya membuat dua pasangan kunci. </font><font style="vertical-align: inherit;">Pasangan kunci DSA adalah pasangan kunci utama yang hanya dapat digunakan untuk membuat tanda tangan. </font><font style="vertical-align: inherit;">Pasangan kunci bawahan ElGamal juga dibuat untuk enkripsi. </font><font style="vertical-align: inherit;">Opsi 2 serupa tetapi hanya membuat pasangan kunci DSA. </font><font style="vertical-align: inherit;">Opsi 4 </font></font><a name="AEN34" href="https://www.gnupg.org/gph/en/manual.html#FTN.AEN34"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1]</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> membuat satu pasangan kunci ElGamal yang dapat digunakan untuk membuat tanda tangan dan melakukan enkripsi. </font><font style="vertical-align: inherit;">Dalam semua kasus dimungkinkan untuk kemudian menambahkan subkunci tambahan untuk enkripsi dan penandatanganan. </font><font style="vertical-align: inherit;">Untuk sebagian besar pengguna, opsi default tidak masalah.</font></font><p></p><p>You must also choose a key size.
+The size of a DSA key must be between 512 and 1024 bits, and an ElGamal
+key may be of any size.
+GnuPG, however, requires that keys be no smaller than 768 bits.
+Therefore, if Option 1 was chosen and you choose a keysize larger than
+1024 bits, the ElGamal key will have the requested size, but the DSA
+key will be 1024 bits.
+
+</p><pre class="SCREEN">About to generate a new ELG-E keypair.<font></font>
+              minimum keysize is  768 bits<font></font>
+              default keysize is 1024 bits<font></font>
+    highest suggested keysize is 2048 bits<font></font>
+What keysize do you want? (1024)</pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Semakin panjang kunci semakin aman terhadap serangan brute force, tetapi untuk hampir semua tujuan ukuran kunci default sudah memadai karena akan lebih murah untuk menghindari enkripsi daripada mencoba untuk memecahkannya. </font><font style="vertical-align: inherit;">Selain itu, enkripsi dan dekripsi akan lebih lambat seiring dengan bertambahnya ukuran kunci, dan ukuran kunci yang lebih besar dapat memengaruhi panjang tanda tangan. </font><font style="vertical-align: inherit;">Setelah dipilih, ukuran kunci tidak akan pernah dapat diubah.</font></font><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Terakhir, Anda harus memilih tanggal kedaluwarsa. </font><font style="vertical-align: inherit;">Jika Opsi 1 dipilih, tanggal kedaluwarsa akan digunakan untuk pasangan kunci ElGamal dan DSA.
+
+</font></font></p><pre class="SCREEN"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Harap tentukan berapa lama kunci harus valid.</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+         0 = kunci tidak kedaluwarsa</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      &lt;n&gt; = kunci kedaluwarsa dalam n hari</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      &lt;n&gt;w = kunci kedaluwarsa dalam n minggu</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      &lt;n&gt;m = kunci kedaluwarsa dalam n bulan</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      &lt;n&gt;y = kunci kedaluwarsa dalam n tahun</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Kunci berlaku untuk? </font><font style="vertical-align: inherit;">(0)</font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Untuk sebagian besar pengguna, kunci yang tidak kedaluwarsa sudah memadai. </font><font style="vertical-align: inherit;">Namun, waktu kedaluwarsa harus dipilih dengan hati-hati, karena meskipun mungkin mengubah tanggal kedaluwarsa setelah kunci dibuat, mungkin sulit untuk mengomunikasikan perubahan kepada pengguna yang memiliki kunci publik Anda.</font></font><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anda harus memberikan ID pengguna selain parameter kunci. </font><font style="vertical-align: inherit;">ID pengguna digunakan untuk mengaitkan kunci yang dibuat dengan orang sungguhan.
+
+</font></font></p><pre class="SCREEN"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anda memerlukan User-ID untuk mengidentifikasi kunci Anda; </font><font style="vertical-align: inherit;">perangkat lunak membangun id pengguna</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+dari Nama Asli, Komentar dan Alamat Email dalam formulir ini:</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    "Heinrich Heine (Der Dichter) &lt;heinrichh@duesseldorf.de&gt;"</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Nama asli: </font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Hanya satu ID pengguna yang dibuat saat kunci dibuat, tetapi dimungkinkan untuk membuat ID pengguna tambahan jika Anda ingin menggunakan kunci dalam dua konteks atau lebih, misalnya, sebagai karyawan di tempat kerja dan aktivis politik di sampingan. </font><font style="vertical-align: inherit;">ID pengguna harus dibuat dengan hati-hati karena tidak dapat diedit setelah dibuat.</font></font><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GnuPG memerlukan frasa sandi untuk melindungi kunci pribadi utama dan bawahan yang Anda miliki.
+
+</font></font></p><pre class="SCREEN"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anda memerlukan Frasa Sandi untuk melindungi kunci pribadi Anda.    </font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Masukkan frasa sandi: </font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Tidak ada batasan panjang kata sandi, dan itu harus dipilih dengan cermat. </font><font style="vertical-align: inherit;">Dari sudut pandang keamanan, frasa sandi untuk membuka kunci pribadi adalah salah satu titik terlemah di GnuPG (dan juga sistem enkripsi kunci publik lainnya) karena ini adalah satu-satunya perlindungan yang Anda miliki jika orang lain mendapatkan kunci pribadi Anda. </font><font style="vertical-align: inherit;">Idealnya, frasa sandi tidak boleh menggunakan kata-kata dari kamus dan harus mencampur huruf besar-kecil dengan karakter alfabet serta menggunakan karakter non-abjad. </font><font style="vertical-align: inherit;">Frasa sandi yang baik sangat penting untuk keamanan penggunaan GnuPG.</font></font><p></p><div class="SECT2"><hr><h2 class="SECT2"><a name="REVOCATION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Membuat sertifikat pencabutan</font></font></a></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Setelah keypair Anda dibuat, Anda harus segera membuat sertifikat pencabutan untuk kunci publik utama menggunakan opsi
+ </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--gen-revoke</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Jika Anda lupa frasa sandi atau jika kunci pribadi Anda disusupi atau hilang, sertifikat pencabutan ini dapat diterbitkan untuk memberi tahu orang lain bahwa kunci publik tidak boleh lagi digunakan. </font><font style="vertical-align: inherit;">Kunci publik yang dicabut masih dapat digunakan untuk memverifikasi tanda tangan yang Anda buat di masa lalu, tetapi tidak dapat digunakan untuk mengenkripsi pesan mendatang kepada Anda. </font><font style="vertical-align: inherit;">Ini juga tidak memengaruhi kemampuan Anda untuk mendekripsi pesan yang dikirimkan kepada Anda di masa lalu jika Anda masih memiliki akses ke kunci pribadi.
+
+</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --output revoke.asc --gen-revoke mykey</font></font></b></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+[...]</font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Argumen </font></font><tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mykey</font></font></b></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> harus berupa </font><tt class="USERINPUT"><b><font style="vertical-align: inherit;">penentu</font></b></tt></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> kunci</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , baik ID kunci dari pasangan kunci utama Anda atau bagian mana pun dari ID pengguna yang mengidentifikasi pasangan kunci Anda. </font><font style="vertical-align: inherit;">Sertifikat yang dihasilkan akan disimpan dalam file
+ </font></font><tt class="PARAMETER"><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">revoke.asc</font></font></i></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Jika </font><font style="vertical-align: inherit;">opsi </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--output</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dihilangkan, hasilnya akan ditempatkan pada output standar. </font><font style="vertical-align: inherit;">Karena sertifikatnya pendek, Anda mungkin ingin mencetak hardcopy sertifikat untuk disimpan di tempat yang aman seperti brankas Anda. </font><font style="vertical-align: inherit;">Sertifikat tidak boleh disimpan di tempat yang dapat diakses orang lain karena siapa pun dapat menerbitkan sertifikat pencabutan dan membuat kunci publik terkait tidak berguna.</font></font><p></p></div></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN57"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bertukar kunci</font></font></a></h1><p>To communicate with others you must exchange public keys.
+To list the keys on your public keyring use the command-line 
+option <tt class="OPTION">--list-keys</tt>.</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --list-keys</b></tt><font></font>
+/users/alice/.gnupg/pubring.gpg<font></font>
+---------------------------------------<font></font>
+pub  1024D/BB7576AC 1999-06-04 Alice (Judge) &lt;alice@cyb.org&gt;<font></font>
+sub  1024g/78E9A8FA 1999-06-04</pre><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN65">Exporting a public key</a></h2><p>To send your public key to a correspondent you must first export it.
+The command-line option <tt class="OPTION">--export</tt>
+is used to do this.
+It takes an additional argument identifying the public key to export.
+As with the <tt class="OPTION">--gen-revoke</tt> option, either the key ID or any part of
+the user ID may be used to identify the key to export.</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --output alice.gpg --export alice@cyb.org</b></tt></pre><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kunci diekspor dalam format biner, tetapi ini bisa merepotkan jika kunci dikirim melalui email atau dipublikasikan di halaman web. </font><font style="vertical-align: inherit;">Oleh karena itu GnuPG mendukung opsi baris perintah 
+ </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--armor </font></font></tt><a name="AEN77" href="https://www.gnupg.org/gph/en/manual.html#FTN.AEN77"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2]</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+yang menyebabkan output dihasilkan dalam format lapis baja ASCII yang mirip dengan dokumen yang dikodekan uu. </font><font style="vertical-align: inherit;">Secara umum, setiap output dari GnuPG, misalnya, kunci, dokumen terenkripsi, dan tanda tangan, dapat dilapis ASCII dengan menambahkan </font><font style="vertical-align: inherit;">opsi </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--armor</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --armor --ekspor alice@cyb.org</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-----MULAI BLOK KUNCI PUBLIK PGP-----</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Versi: GnuPG v0.9.7 (GNU/Linux)</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Komentar: Untuk info lihat http://www.gnupg.org</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+[...]</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-----AKHIR BLOK KUNCI PUBLIK PGP-----</font></font></pre></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN84"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mengimpor kunci publik</font></font></a></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kunci publik dapat ditambahkan ke gantungan kunci publik Anda dengan
+ </font><font style="vertical-align: inherit;">opsi </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--import</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --import blake.gpg</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: kunci 9E98BC16: kunci publik diimpor</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: Jumlah total yang diproses: 1</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: diimpor: 1</font></font><font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --list-keys</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+/users/alice/.gnupg/pubring.gpg</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+--------------------------------------------------</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/BB7576AC 1999-06-04 Alice (Hakim) &lt;alice@cyb.org&gt;</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/78E9A8FA 1999-06-04</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/9E98BC16 1999-06-04 Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/5C8CBD41 1999-06-04</font></font></pre><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Setelah kunci diimpor, itu harus divalidasi. </font><font style="vertical-align: inherit;">GnuPG menggunakan model kepercayaan yang kuat dan fleksibel yang tidak mengharuskan Anda untuk memvalidasi secara pribadi setiap kunci yang Anda impor. </font><font style="vertical-align: inherit;">Namun, beberapa kunci mungkin perlu divalidasi secara pribadi. </font><font style="vertical-align: inherit;">Kunci divalidasi dengan memverifikasi sidik jari kunci dan kemudian menandatangani kunci untuk mengesahkannya sebagai kunci yang valid. </font><font style="vertical-align: inherit;">Sidik jari kunci dapat dengan cepat dilihat dengan
+ </font><font style="vertical-align: inherit;">
+opsi baris perintah </font></font><tt class="OPTION"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--fingerprint</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , tetapi untuk mengesahkan kunci, Anda harus mengeditnya.
+
+</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --edit-key blake@cyb.org</font></font></b></tt><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/9E98BC16 dibuat: 1999-06-04 kedaluwarsa: tidak pernah percaya: -/q</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/5C8CBD41 dibuat: 1999-06-04 kedaluwarsa: tidak pernah     </font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+(1) Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font>
+<font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perintah&gt; </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fpr</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/9E98BC16 1999-06-04 Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+             Sidik Jari: 268F 448F CCD7 AF34 183E 52D8 9BDE 1A08 9E98 BC16</font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Sidik jari kunci diverifikasi dengan pemilik kunci. </font><font style="vertical-align: inherit;">Ini dapat dilakukan secara langsung atau melalui telepon atau melalui cara lain selama Anda dapat menjamin bahwa Anda berkomunikasi dengan pemilik kunci yang sebenarnya. </font><font style="vertical-align: inherit;">Jika sidik jari yang Anda dapatkan sama dengan sidik jari yang diperoleh pemilik kunci, maka Anda dapat yakin bahwa Anda memiliki salinan kunci yang benar.</font></font><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Setelah memeriksa sidik jari, Anda dapat menandatangani kunci untuk memvalidasinya. </font><font style="vertical-align: inherit;">Karena verifikasi kunci adalah titik lemah dalam kriptografi kunci publik, Anda harus sangat berhati-hati dan </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">selalu</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> memeriksa sidik jari kunci dengan pemiliknya sebelum menandatangani kunci.</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perintah&gt; </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tanda</font></font></b></tt><font></font>
+             <font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/9E98BC16 dibuat: 1999-06-04 kedaluwarsa: tidak pernah percaya: -/q</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+             Sidik Jari: 268F 448F CCD7 AF34 183E 52D8 9BDE 1A08 9E98 BC16</font></font><font></font>
+<font></font>
+     Blake (Executioner) &lt;blake@cyb.org&gt;<font></font>
+<font></font>
+Are you really sure that you want to sign this key<font></font>
+with your key: "Alice (Judge) &lt;alice@cyb.org&gt;"<font></font>
+<font></font>
+Really sign?</pre><p>Once signed you can check the key to list the signatures on it and
+see the signature that you have added.
+Every user ID on the key will have one or more self-signatures as well
+as a signature for each user that has validated the key.</p><pre class="SCREEN"><tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>check</b></tt><font></font>
+uid  Blake (Executioner) &lt;blake@cyb.org&gt;<font></font>
+sig!       9E98BC16 1999-06-04   [self-signature]<font></font>
+sig!       BB7576AC 1999-06-04   Alice (Judge) &lt;alice@cyb.org&gt;</pre></div></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN111">Encrypting and decrypting documents</a></h1><p>A public and private key each have a specific role when
+encrypting and decrypting documents.
+A public key may be thought of as an open safe.
+When a correspondent encrypts a document using a public
+key, that document is put in the safe, the safe shut, and the
+combination lock spun several times.
+The corresponding private key is the combination that can 
+reopen the safe and retrieve the document.
+In other words, only the person who holds the private key
+can recover a document encrypted using the associated public key.</p><p>The procedure for encrypting and decrypting documents is
+straightforward with this mental model.
+If you want to encrypt a message to Alice, you encrypt it
+using Alice's public key, and she decrypts it with her private key.
+If Alice wants to send you a message, she encrypts it using your
+public key, and you decrypt it with your private key.</p><p>To encrypt a document the option 
+<tt class="OPTION">--encrypt</tt> is used.
+You must have the public keys of the intended recipients.
+The software expects the name of the document to encrypt as input; if
+omitted, it reads standard input.
+The encrypted result is placed on standard output or as specified using
+the option <tt class="OPTION">--output</tt>.
+The document is compressed for additional security in addition to
+encrypting it.
+
+</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --output doc.gpg --encrypt --recipient blake@cyb.org doc</b></tt></pre>
+
+The <tt class="OPTION">--recipient</tt> option
+is used once for each recipient and takes an extra argument specifying
+the public key to which the document should be encrypted.
+The encrypted document can only be decrypted by someone with a private
+key that complements one of the recipients' public keys.
+In particular, you cannot decrypt a document encrypted by you unless
+you included your own public key in the recipient list.<p></p><p>To decrypt a message the option 
+<tt class="OPTION">--decrypt</tt> is used.
+You need the private key to which the message was encrypted.
+Similar to the encryption process, the document to decrypt is
+input, and the decrypted result is output.</p><pre class="SCREEN"><tt class="PROMPT">blake%</tt> <tt class="USERINPUT"><b>gpg --output doc --decrypt doc.gpg</b></tt><font></font>
+<font></font>
+You need a passphrase to unlock the secret key for<font></font>
+user: "Blake (Executioner) &lt;blake@cyb.org&gt;"<font></font>
+1024-bit ELG-E key, ID 5C8CBD41, created 1999-06-04 (main key ID 9E98BC16)<font></font>
+<font></font>
+Enter passphrase: </pre><p>Documents may also be encrypted without using public-key cryptography.
+Instead, you use a symmetric cipher to encrypt the document.
+The key used to drive the symmetric cipher is derived from a passphrase
+supplied when the document is encrypted, and for good security, it
+should not be the same passphrase that you use to protect your private key.
+Symmetric encryption is useful for securing documents when the
+passphrase does not need to be communicated to others.
+A document can be encrypted with a symmetric cipher by using the
+<tt class="OPTION">--symmetric</tt> option.</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --output doc.gpg --symmetric doc</b></tt>
+Enter passphrase: </pre></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN136">Making and verifying signatures</a></h1><p>A digital signature certifies and timestamps a document.
+If the document is subsequently modified in any way, a verification
+of the signature will fail.
+A digital signature can serve the same purpose as a hand-written signature
+with the additional benefit of being tamper-resistant.
+The GnuPG source distribution, for example, is signed so that users can
+verify that the source code has not been modified since it was packaged.</p><p>Creating and verifying signatures uses the public/private keypair
+in an operation different from encryption and decryption.
+A signature is created using the private key of the signer.
+The signature is verified using the corresponding public key.
+For example, Alice would use her own private key to digitally sign
+her latest submission to the Journal of Inorganic Chemistry.
+The associate editor handling her submission would use Alice's
+public key to check the signature to verify that the submission
+indeed came from Alice and that it had not been modified since Alice
+sent it.
+A consequence of using digital signatures is that it is difficult to 
+deny that you made a digital signature since that would imply 
+your private key had been compromised.</p><p>The command-line option 
+<tt class="OPTION">--sign</tt> is
+used to make a digital signature.
+The document to sign is input, and the signed document is output.
+
+</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --output doc.sig --sign doc</b></tt><font></font>
+<font></font>
+You need a passphrase to unlock the private key for<font></font>
+user: "Alice (Judge) &lt;alice@cyb.org&gt;"<font></font>
+1024-bit DSA key, ID BB7576AC, created 1999-06-04<font></font>
+<font></font>
+Enter passphrase: </pre>
+
+The document is compressed before being signed, and the output is in binary
+format.<p></p><p>Given a signed document, you can either check the signature or
+check the signature and recover the original document.
+To check the signature use the 
+<tt class="OPTION">--verify</tt> option.
+To verify the signature and extract the document use the
+<tt class="OPTION">--decrypt</tt>
+option.
+The signed document to verify and recover is input and the recovered
+document is output.</p><pre class="SCREEN"><tt class="PROMPT">blake%</tt> <tt class="USERINPUT"><b>gpg --output doc --decrypt doc.sig</b></tt><font></font>
+gpg: Signature made Fri Jun  4 12:02:38 1999 CDT using DSA key ID BB7576AC<font></font>
+gpg: Good signature from "Alice (Judge) &lt;alice@cyb.org&gt;"</pre><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN153">Clearsigned documents</a></h2><p>A common use of digital signatures is to sign usenet postings or
+email messages.
+In such situations it is undesirable to compress the document while
+signing it.
+The option 
+<tt class="OPTION">--clearsign</tt> 
+causes the document to be wrapped in an ASCII-armored signature but 
+otherwise does not modify the document.</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --clearsign doc</b></tt><font></font>
+<font></font>
+You need a passphrase to unlock the secret key for<font></font>
+user: "Alice (Judge) &lt;alice@cyb.org&gt;"<font></font>
+1024-bit DSA key, ID BB7576AC, created 1999-06-04<font></font>
+<font></font>
+-----BEGIN PGP SIGNED MESSAGE-----<font></font>
+Hash: SHA1<font></font>
+<font></font>
+[...]<font></font>
+-----BEGIN PGP SIGNATURE-----<font></font>
+Version: GnuPG v0.9.7 (GNU/Linux)<font></font>
+Comment: For info see http://www.gnupg.org<font></font>
+<font></font>
+iEYEARECAAYFAjdYCQoACgkQJ9S6ULt1dqz6IwCfQ7wP6i/i8HhbcOSKF4ELyQB1<font></font>
+oCoAoOuqpRqEzr4kOkQqHRLE/b8/Rw2k<font></font>
+=y6kj<font></font>
+-----END PGP SIGNATURE-----</pre></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN161">Detached signatures</a></h2><p>A signed document has limited usefulness.
+Other users must recover the original document from the signed
+version, and even with clearsigned documents, the signed document
+must be edited to recover the original.
+Therefore, there is a third method for signing a document that
+creates a detached signature, which is a separate file.
+A detached signature is created using the 
+<tt class="OPTION">--detach-sig</tt>
+option.</p><pre class="SCREEN"><tt class="PROMPT">alice%</tt> <tt class="USERINPUT"><b>gpg --output doc.sig --detach-sig doc</b></tt><font></font>
+<font></font>
+You need a passphrase to unlock the secret key for<font></font>
+user: "Alice (Judge) &lt;alice@cyb.org&gt;"<font></font>
+1024-bit DSA key, ID BB7576AC, created 1999-06-04<font></font>
+<font></font>
+Enter passphrase: </pre><p>Both the document and detached signature are needed to verify
+the signature.
+The <tt class="OPTION">--verify</tt> option can be to check the 
+signature.</p><pre class="SCREEN"><tt class="PROMPT">blake%</tt> <tt class="USERINPUT"><b>gpg --verify doc.sig doc</b></tt><font></font>
+gpg: Signature made Fri Jun  4 12:38:46 1999 CDT using DSA key ID BB7576AC<font></font>
+gpg: Good signature from "Alice (Judge) &lt;alice@cyb.org&gt;"</pre></div></div></div><div class="CHAPTER"><hr><h1><a name="CONCEPTS">Chapter 2. Concepts</a></h1><p>GnuPG makes uses of several cryptographic concepts including 
+<i class="FIRSTTERM">symmetric ciphers</i>, 
+<i class="FIRSTTERM">public-key ciphers</i>, and 
+<i class="FIRSTTERM">one-way hashing</i>.
+You can make basic use GnuPG without fully understanding these concepts,
+but in order to use it wisely some understanding of them is necessary.</p><p>This chapter introduces the basic cryptographic concepts used in GnuPG.
+Other books cover these topics in much more detail.
+A good book with which to pursue further study is 
+<a href="http://www.counterpane.com/schneier.html" target="_top">Bruce 
+Schneier</a>'s
+<a href="http://www.counterpane.com/applied.html" target="_top">``Applied 
+Cryptography''</a>.</p><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN185"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cipher simetris</font></font></a></h1><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cipher simetris adalah cipher yang menggunakan kunci yang sama untuk enkripsi dan dekripsi. </font><font style="vertical-align: inherit;">Dua pihak yang berkomunikasi menggunakan cipher simetris harus menyepakati kunci terlebih dahulu. </font><font style="vertical-align: inherit;">Setelah mereka setuju, pengirim mengenkripsi pesan menggunakan kunci, mengirimkannya ke penerima, dan penerima mendekripsi pesan menggunakan kunci. </font><font style="vertical-align: inherit;">Sebagai contoh, Enigma Jerman adalah sandi simetris, dan kunci harian didistribusikan sebagai buku kode. </font><font style="vertical-align: inherit;">Setiap hari, operator radio pengirim atau penerima akan berkonsultasi dengan salinan buku kodenya untuk menemukan kunci hari itu. </font><font style="vertical-align: inherit;">Lalu lintas radio untuk hari itu kemudian dienkripsi dan didekripsi menggunakan kunci hari itu. </font><font style="vertical-align: inherit;">Contoh modern dari cipher simetris termasuk 3DES, Blowfish, dan IDEA.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cipher yang baik menempatkan semua keamanan dalam kunci dan tidak ada dalam algoritme. </font><font style="vertical-align: inherit;">Dengan kata lain, penyerang tidak akan membantu jika dia tahu sandi mana yang digunakan. </font><font style="vertical-align: inherit;">Hanya jika dia mendapatkan kuncinya, pengetahuan tentang algoritme akan dibutuhkan. </font><font style="vertical-align: inherit;">Cipher yang digunakan dalam GnuPG memiliki properti ini.</font></font></p><p>Since all the security is in the key, then it is important that it be
+very difficult to guess the key.
+In other words, the set of possible keys, i.e., the <i class="EMPHASIS">key
+space</i>, needs
+to be large.
+While at Los Alamos, Richard Feynman was famous for his ability to
+crack safes.
+To encourage the mystique he even carried around a set of tools
+including an old stethoscope.
+In reality, he used a variety of tricks to reduce the number of
+combinations he had to try to a small number and then simply guessed
+until he found the right combination.
+In other words, he reduced the size of the key space.</p><p>Britain used machines to guess keys during World War 2.
+The German Enigma had a very large key space, but the British built
+specialized computing engines, the Bombes, to mechanically try 
+keys until the day's key was found.
+This meant that sometimes they found the day's key within hours of
+the new key's use, but it also meant that on some days they never
+did find the right key.
+The Bombes were not general-purpose computers but were precursors
+to modern-day computers.</p><p>Today, computers can guess keys very quickly, and this is why key
+size is important in modern cryptosystems.
+The cipher DES uses a 56-bit key, which means that there are
+2<sup>56</sup> possible keys.
+2<sup>56</sup> is 72,057,594,037,927,936 keys.
+This is a lot of keys, but a general-purpose computer can check the
+entire key space in a matter of days.
+A specialized computer can check it in hours.
+On the other hand, more recently designed ciphers such as 3DES, 
+Blowfish, and IDEA
+all use 128-bit keys, which means there are 2<sup>128</sup> 
+possible keys.
+This is many, many more keys, and even if all the computers on the
+planet cooperated, it could still take more time than the age of
+the universe to find the key.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN196">Public-key ciphers</a></h1><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Masalah utama dengan cipher simetris bukanlah keamanannya tetapi dengan pertukaran kunci. </font><font style="vertical-align: inherit;">Setelah pengirim dan penerima bertukar kunci, kunci itu dapat digunakan untuk berkomunikasi dengan aman, tetapi saluran komunikasi aman apa yang digunakan untuk mengomunikasikan kunci itu sendiri? </font><font style="vertical-align: inherit;">Secara khusus, mungkin akan jauh lebih mudah bagi penyerang untuk bekerja mencegat kunci daripada mencoba semua kunci di ruang kunci. </font><font style="vertical-align: inherit;">Masalah lainnya adalah jumlah kunci yang dibutuhkan. </font><font style="vertical-align: inherit;">Jika ada </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> orang yang perlu berkomunikasi, maka 
+ </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n(n-1)/2</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> kunci diperlukan untuk setiap pasangan orang untuk berkomunikasi secara pribadi. </font><font style="vertical-align: inherit;">Ini mungkin OK untuk sejumlah kecil orang tetapi dengan cepat menjadi berat untuk kelompok besar orang.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cipher kunci publik diciptakan untuk menghindari masalah pertukaran kunci sepenuhnya. </font><font style="vertical-align: inherit;">Cipher kunci publik menggunakan sepasang kunci untuk mengirim pesan. </font><font style="vertical-align: inherit;">Kedua kunci itu milik orang yang menerima pesan. </font><font style="vertical-align: inherit;">Salah satu kunci adalah kunci </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">publik</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dan dapat diberikan kepada siapa saja. </font><font style="vertical-align: inherit;">Kunci lainnya adalah kunci </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pribadi</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dan dirahasiakan oleh pemiliknya. </font><font style="vertical-align: inherit;">Pengirim mengenkripsi pesan menggunakan kunci publik dan setelah dienkripsi, hanya kunci pribadi yang dapat digunakan untuk mendekripsinya.</font></font></p><p>This protocol solves the key-exchange problem inherent with symmetric
+ciphers.
+There is no need for the sender and receiver to agree
+upon a key.
+All that is required is that some time before secret communication the
+sender gets a copy of the receiver's public key.
+Furthermore, the one public key can be used by anybody wishing to
+communicate with the receiver.
+So only <i class="EMPHASIS">n</i> keypairs are needed for <i class="EMPHASIS">n</i> 
+people to communicate secretly
+with one another.</p><p>Public-key ciphers are based on one-way trapdoor functions.
+A one-way function is a function that is easy to compute,
+but the inverse is hard to compute.
+For example, it is easy to multiply two prime numbers together to get
+a composite, but it is difficult to factor a composite into its prime
+components.
+A one-way trapdoor function is similar, but it has a trapdoor.
+That is, if some piece of information is known, it becomes easy
+to compute the inverse.
+For example, if you have a number made of two prime factors, then knowing
+one of the factors makes it easy to compute the second.
+Given a public-key cipher based on prime factorization, the public
+key contains a composite number made from two large prime factors, and
+the encryption algorithm uses that composite to encrypt the
+message.
+The algorithm to decrypt the message requires knowing the prime factors,
+so decryption is easy if you have the private key containing one of the
+factors but extremely difficult if you do not have it.</p><p>As with good symmetric ciphers, with a good public-key cipher all of the
+security rests with the key.
+Therefore, key size is a measure of the system's security, but
+one cannot compare the size of a symmetric cipher key and a public-key
+cipher key as a measure of their relative security.
+In a brute-force attack on a symmetric cipher with a key size of 80 bits,
+the attacker must enumerate up to 2<sup>80</sup> keys to 
+find the right key.
+In a brute-force attack on a public-key cipher with a key size of 512 bits,
+the attacker must factor a composite number encoded in 512 bits (up to
+155 decimal digits).
+The workload for the attacker is fundamentally different depending on
+the cipher he is attacking.
+While 128 bits is sufficient for symmetric ciphers, given today's factoring
+technology public keys with 1024 bits are recommended for most purposes.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN210">Hybrid ciphers</a></h1><p>Public-key ciphers are no panacea.
+Many symmetric ciphers are stronger from a security standpoint,
+and public-key encryption and decryption are more expensive than the
+corresponding operations in symmetric systems.
+Public-key ciphers are nevertheless an effective tool for distributing
+symmetric cipher keys, and that is how they are used in hybrid cipher
+systems.</p><p>A hybrid cipher uses both a symmetric cipher and a public-key cipher.
+It works by using a public-key cipher to share a key for the symmetric
+cipher.
+The actual message being sent is then encrypted using the key and sent
+to the recipient.
+Since symmetric key sharing is secure, the symmetric key used is different
+for each message sent.
+Hence it is sometimes called a session key.</p><p>Both PGP and GnuPG use hybrid ciphers.
+The session key, encrypted using the public-key cipher, and the message
+being sent, encrypted with the symmetric cipher, are automatically
+combined in one package.
+The recipient uses his private-key to decrypt the session key and the
+session key is then used to decrypt the message.</p><p>A hybrid cipher is no stronger than the public-key cipher or symmetric
+cipher it uses, whichever is weaker.
+In PGP and GnuPG, the public-key cipher is probably the weaker of
+the pair.
+Fortunately, however, if an attacker could decrypt a session key it
+would only be useful for reading the one message encrypted with that
+session key.
+The attacker would have to start over and decrypt another session
+key in order to read any other message.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN216">Digital signatures</a></h1><p>A hash function is a many-to-one function that maps its input to a
+value in a finite set.
+Typically this set is a range of natural numbers.
+A simple hash function is <i class="EMPHASIS">f</i>(<i class="EMPHASIS">x</i>) = 0 
+for all integers <i class="EMPHASIS">x</i>.
+A more interesting hash function is 
+<i class="EMPHASIS">f</i>(<i class="EMPHASIS">x</i>) = <i class="EMPHASIS">x</i> 
+<i class="EMPHASIS">mod</i> 37, which
+maps <i class="EMPHASIS">x</i> to the remainder of dividing <i class="EMPHASIS">x</i> by 37.</p><p>A document's digital signature is the result of applying a hash
+function to the document.
+To be useful, however, the hash function needs to satisfy two
+important properties.
+First, it should be hard to find two documents that hash to the
+same value.
+Second, given a hash value it should be hard to recover the document
+that produced that value.</p><p>Some public-key ciphers<a name="AEN230" href="https://www.gnupg.org/gph/en/manual.html#FTN.AEN230">[3]</a> could be used to sign documents.
+The signer encrypts the document with his <i class="EMPHASIS">private</i> key.
+Anybody wishing to check the signature and see the document simply
+uses the signer's public key to decrypt the document.
+This algorithm does satisfy the two properties needed from a good hash
+function, but in practice, this algorithm is too slow to be useful.</p><p>An alternative is to use hash functions designed to satisfy these
+two important properties.
+SHA and MD5 are examples of such algorithms.
+Using such an algorithm, a document is signed by hashing it, and
+the hash value is the signature.
+Another person can check the signature by also hashing their copy of the
+document and comparing the hash value they get with the hash value of
+the original document.
+If they match, it is almost certain that the documents are identical.</p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tentu saja, masalahnya sekarang adalah menggunakan fungsi hash untuk tanda tangan digital tanpa mengizinkan penyerang mengganggu pemeriksaan tanda tangan. </font><font style="vertical-align: inherit;">Jika dokumen dan tanda tangan dikirim tidak terenkripsi, penyerang dapat memodifikasi dokumen dan menghasilkan tanda tangan yang sesuai tanpa sepengetahuan penerima. </font><font style="vertical-align: inherit;">Jika hanya dokumen yang dienkripsi, penyerang dapat merusak tanda tangan dan menyebabkan pemeriksaan tanda tangan gagal. </font><font style="vertical-align: inherit;">Opsi ketiga adalah menggunakan enkripsi kunci publik hibrid untuk mengenkripsi tanda tangan dan dokumen. </font><font style="vertical-align: inherit;">Penanda tangan menggunakan kunci pribadinya, dan siapa pun dapat menggunakan kunci publiknya untuk memeriksa tanda tangan dan dokumen. </font><font style="vertical-align: inherit;">Ini terdengar bagus tapi sebenarnya omong kosong. </font><font style="vertical-align: inherit;">Jika algoritme ini benar-benar mengamankan dokumen, itu juga akan mengamankannya dari gangguan dan tidak perlu tanda tangan. </font><font style="vertical-align: inherit;">Namun, masalah yang lebih serius, </font><font style="vertical-align: inherit;">adalah bahwa ini tidak melindungi tanda tangan atau dokumen dari gangguan. </font><font style="vertical-align: inherit;">Dengan algoritme ini, hanya kunci sesi untuk sandi simetris yang dienkripsi menggunakan kunci pribadi penandatangan. </font><font style="vertical-align: inherit;">Siapa saja dapat menggunakan kunci publik untuk memulihkan kunci sesi. </font><font style="vertical-align: inherit;">Oleh karena itu, penyerang dapat memulihkan kunci sesi dan menggunakannya untuk mengenkripsi dokumen dan tanda tangan pengganti untuk dikirim ke orang lain atas nama pengirim.</font></font></p><p>An algorithm that does work is to use a public key algorithm to
+encrypt only the signature.
+In particular, the hash value is encrypted using the signer's private
+key, and anybody can check the signature using the public key.
+The signed document can be sent using any other encryption algorithm
+including none if it is a public document.
+If the document is modified the signature check will fail, but this
+is precisely what the signature check is supposed to catch.
+The Digital Signature Standard (DSA) is a public key signature 
+algorithm that works as just described.
+DSA is the primary signing algorithm used in GnuPG.</p></div></div><div class="CHAPTER"><hr><h1><a name="MANAGEMENT">Chapter 3. Key Management</a></h1><p>Key tampering is a major security weakness with public-key cryptography.
+An eavesdropper may tamper with a user's keyrings or forge a
+user's public key and post it for others to download and use.
+For example, suppose Chloe wants to monitor the messages that Alice
+sends to Blake.
+She could mount what is called a <i class="FIRSTTERM">man in the
+middle</i> attack.
+In this attack, Chloe creates a new public/private keypair.
+She replaces Alice's copy of Blake's public key with the new public key.
+She then intercepts the messages that Alice sends to Blake.
+For each intercept, she decrypts it using the new private key, reencrypts
+it using Blake's true public key, and forwards the reencrypted
+message to Blake.
+All messages sent from Alice to Blake can now be read by Chloe.</p><p>Good key management is crucial in order to ensure not just the integrity
+of your keyrings but the integrity of other users' keyrings as well.
+The core of key management in GnuPG is the notion of signing keys.
+Key signing has two main purposes: it permits you to detect tampering
+on your keyring, and it allows you to certify that a key truly belongs
+to the person named by a user ID on the key.
+Key signatures are also used in a scheme known as the <i class="FIRSTTERM">web of
+trust</i> to extend certification to keys not directly signed by you
+but signed by others you trust.
+Responsible users who practice good key management can defeat key
+tampering as a practical attack on secure communication with GnuPG.</p><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN244">Managing your own keypair</a></h1><p>A keypair has a public key and a private key.
+A public key consists of
+the public portion of the master signing key,
+the public portions of the subordinate signing and encryption subkeys, and
+a set of user IDs used to associate the public key with a real person.
+Each piece has data about itself.
+For a key, this data includes its ID, when it was created, when it
+will expire, etc.
+For a user ID, this data includes the name of the real person it identifies,
+an optional comment, and an email address.
+The structure of the private key is similar, except that it contains only
+the private portions of the keys, and there is no user ID information.</p><p>The command-line option
+<tt class="OPTION">--edit-key</tt>
+may be used to view a keypair.
+For example,
+
+</p><pre class="SCREEN"><tt class="PROMPT">chloe%</tt> <tt class="USERINPUT"><b>gpg --edit-key chloe@cyb.org</b></tt><font></font>
+Secret key is available.<font></font>
+<font></font>
+pub  1024D/26B6AAE1  created: 1999-06-15 expires: never      trust: -/u<font></font>
+sub  2048g/0CF8CB7A  created: 1999-06-15 expires: never<font></font>
+sub  1792G/08224617  created: 1999-06-15 expires: 2002-06-14<font></font>
+sub   960D/B1F423E7  created: 1999-06-15 expires: 2002-06-14<font></font>
+(1)  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+(2)  Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+<tt class="PROMPT">Command&gt;</tt></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Kunci publik ditampilkan bersama dengan indikasi apakah kunci privat tersedia atau tidak. </font><font style="vertical-align: inherit;">Informasi tentang setiap komponen kunci publik kemudian terdaftar. </font><font style="vertical-align: inherit;">Kolom pertama menunjukkan jenis kunci. </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pub</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> kata kunci </font><font style="vertical-align: inherit;">mengidentifikasi kunci penandatanganan master publik, dan </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sub</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> kata kunci </font><font style="vertical-align: inherit;">mengidentifikasi kunci bawahan publik. </font><font style="vertical-align: inherit;">Kolom kedua menunjukkan panjang bit, jenis, dan ID kunci. </font><font style="vertical-align: inherit;">Jenisnya adalah </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">D</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> untuk kunci DSA, </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">g</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> untuk kunci ElGamal khusus enkripsi, dan </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">G</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> untuk kunci ElGamal yang dapat digunakan untuk enkripsi dan penandatanganan. </font><font style="vertical-align: inherit;">Tanggal pembuatan dan tanggal kedaluwarsa diberikan di kolom tiga dan empat. </font><font style="vertical-align: inherit;">ID pengguna terdaftar mengikuti kunci.</font></font><p></p><p>More information about the key can be obtained with interactive commands.
+The command <b class="COMMAND">toggle</b>
+switches between the public and private
+components of a keypair if indeed both components are available.
+
+</p><pre class="SCREEN"><tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>toggle</b></tt><font></font>
+<font></font>
+sec  1024D/26B6AAE1  created: 1999-06-15 expires: never<font></font>
+sbb  2048g/0CF8CB7A  created: 1999-06-15 expires: never<font></font>
+sbb  1792G/08224617  created: 1999-06-15 expires: 2002-06-14<font></font>
+sbb   960D/B1F423E7  created: 1999-06-15 expires: 2002-06-14<font></font>
+(1)  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+(2)  Chloe (Plebian) &lt;chloe@tel.net&gt;</pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Informasi yang diberikan mirip dengan daftar komponen kunci publik. </font><font style="vertical-align: inherit;">Kata kunci </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sec</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> mengidentifikasi kunci penandatanganan master pribadi, dan kata kunci </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sbb</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> mengidentifikasi kunci bawahan pribadi. </font><font style="vertical-align: inherit;">ID pengguna dari kunci publik juga terdaftar untuk kenyamanan.</font></font><p></p><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN267"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Integritas kunci</font></font></a></h2><p>When you distribute your public key, you are distributing the public
+components of your master and subordinate keys as well as the user IDs.
+Distributing this material alone, however, is a security risk since
+it is possible for an attacker to tamper with the key.
+The public key can be modified by adding or substituting keys, or by
+adding or changing user IDs.
+By tampering with a user ID, the attacker could change the user ID's email
+address to have email redirected to himself.
+By changing one of the encryption keys, the attacker would
+also be able to decrypt the messages redirected to him.</p><p>Using digital signatures is a solution to this problem.
+When data is signed by a private key, the corresponding public key
+is bound to the signed data.
+In other words, only the corresponding public key can be used to
+verify the signature and ensure that the data has not been modified.
+A public key can be protected from tampering by using its corresponding
+private master key to sign the public key components and user IDs, thus
+binding the components to the public master key.
+Signing public key components with the corresponding private master
+signing key is called <i class="FIRSTTERM">self-signing</i>, and a public key that has
+self-signed user IDs bound to it is called a <i class="FIRSTTERM">certificate</i>.</p><p>As an example, Chloe has two user IDs and three subkeys.
+The signatures on the user IDs can be checked with the command
+<b class="COMMAND">check</b> from the key edit menu.
+
+</p><pre class="SCREEN"><tt class="PROMPT">chloe%</tt> <tt class="USERINPUT"><b>gpg --edit-key chloe</b></tt><font></font>
+Secret key is available.<font></font>
+<font></font>
+pub  1024D/26B6AAE1  created: 1999-06-15 expires: never      trust: -/u<font></font>
+sub  2048g/0CF8CB7A  created: 1999-06-15 expires: never<font></font>
+sub  1792G/08224617  created: 1999-06-15 expires: 2002-06-14<font></font>
+sub   960D/B1F423E7  created: 1999-06-15 expires: 2002-06-14<font></font>
+(1)  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+(2)  Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+<font></font>
+<tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>check</b></tt><font></font>
+uid  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+sig!	   26B6AAE1 1999-06-15	 [self-signature]<font></font>
+uid  Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+sig!	   26B6AAE1 1999-06-15	 [self-signature]</pre>
+
+As expected, the signing key for each signature is the master signing
+key with key ID <tt class="LITERAL">0x26B6AAE1</tt>.
+The self-signatures on the subkeys are present in the public key, but
+they are not shown by the GnuPG interface.<p></p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN282">Adding and deleting key components</a></h2><p>Both new subkeys and new user IDs may be added to your keypair after
+it has been created.
+A user ID is added using the command
+<b class="COMMAND">adduid</b>.
+You are prompted for a real name, email address, and comment just
+as when you create an initial keypair.
+A subkey is added using the command
+<b class="COMMAND">addkey</b>.
+The interface is similar to the interface used when creating an initial
+keypair.
+The subkey may be a DSA signing key, and encrypt-only ElGamal
+key, or a sign-and-encrypt ElGamal key.
+When a subkey or user ID is generated it is self-signed using your
+master signing key, which is why you must supply your passphrase
+when the key is generated.</p><p>Additional user IDs are useful when you need multiple identities.
+For example, you may have an identity for your job and an identity
+for your work as a political activist.
+Coworkers will know you by your work user ID.
+Coactivists will know you by your activist user ID.
+Since those groups of people may not overlap, though, each group
+may not trust the other user ID.
+Both user IDs are therefore necessary.</p><p>Additional subkeys are also useful.
+The user IDs associated with your public master key are validated by
+the people with whom you
+communicate, and changing the master key therefore requires recertification.
+This may be difficult and time consuming if you communicate with
+many people.
+On the other hand, it is good to periodically change encryption subkeys.
+If a key is broken, all the data encrypted with that key will be
+vulnerable.
+By changing keys, however, only the data encrypted with the one broken
+key will be revealed.</p><p>Subkeys and user IDs may also be deleted.
+To delete a subkey or user ID you must first select it using the
+<b class="COMMAND">key</b> or
+<b class="COMMAND">uid</b> commands respectively.
+These commands are toggles.
+For example, the command <b class="COMMAND">key <tt class="PARAMETER"><i>2</i></tt></b>
+selects the second subkey,
+and invoking <b class="COMMAND">key <tt class="PARAMETER"><i>2</i></tt></b> again
+deselects it.
+If no extra argument is given, all subkeys or user IDs are deselected.
+Once the user IDs to be deleted are selected, the command
+<b class="COMMAND">deluid</b>
+actually deletes the user IDs from your key.
+Similarly, the command <b class="COMMAND">delkey</b>
+deletes all selected subkeys from both your public and private keys.</p><p>For local keyring management, deleting key components is a good way
+to trim other people's public keys of unnecessary material.
+Deleting user IDs and subkeys on your own key, however, is not always
+wise since it complicates key distribution.
+By default, when a user imports your updated public key it will be merged
+with the old copy of your public key on his ring if it exists.
+The components from both keys are combined in the merge, and this
+effectively restores any components you deleted.
+To properly update the key, the user must first delete the old version
+of your key and then import the new version.
+This puts an extra burden on the people with whom you communicate.
+Furthermore, if you send your key to a keyserver, the merge will
+happen regardless, and anybody who downloads your key from a keyserver
+will never see your key with components deleted.
+Consequently, for updating your own key it is better to revoke key
+components instead of deleting them.</p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN305">Revoking key components</a></h2><p>To revoke a subkey it must be selected.
+Once selected it may be revoked with the
+<b class="COMMAND">revkey</b> command.
+The key is revoked by adding a revocation self-signature to the key.
+Unlike the command-line option <tt class="OPTION">--gen-revoke</tt>, the effect of
+revoking a subkey is immediate.</p><pre class="SCREEN"><tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>revkey</b></tt><font></font>
+Do you really want to revoke this key? y<font></font>
+<font></font>
+You need a passphrase to unlock the secret key for<font></font>
+user: "Chloe (Jester) &lt;chloe@cyb.org&gt;"<font></font>
+1024-bit DSA key, ID B87DBA93, created 1999-06-28<font></font>
+<font></font>
+<font></font>
+pub  1024D/B87DBA93  created: 1999-06-28 expires: never      trust: -/u<font></font>
+sub  2048g/B7934539  created: 1999-06-28 expires: never<font></font>
+sub  1792G/4E3160AD  created: 1999-06-29 expires: 2000-06-28<font></font>
+rev! subkey has been revoked: 1999-06-29<font></font>
+sub   960D/E1F56448  created: 1999-06-29 expires: 2000-06-28<font></font>
+(1)  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+(2)  Chloe (Plebian) &lt;chloe@tel.net&gt;</pre><p>A user ID is revoked differently.
+Normally, a user ID collects signatures that attest that the user ID
+describes the person who actually owns the associated key.
+In theory, a user ID describes a person forever, since that person will
+never change.
+In practice, though, elements of the user ID such as the email address
+and comment may change over time, thus invalidating the user ID.</p><p>The OpenPGP
+
+specification does not support user ID revocation, but
+a user ID can effectively be revoked by revoking the self-signature
+on the user ID.
+For the security reasons described
+<a href="https://www.gnupg.org/gph/en/manual.html#AEN267">previously</a>,
+correspondents will not trust a user ID with no valid self-signature.</p><p>A signature is revoked by using the command
+<b class="COMMAND">revsig</b>.
+Since you may have signed any number of user IDs, the user interface
+prompts you to decide for each signature whether or not to revoke it.</p><pre class="SCREEN"><tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>revsig</b></tt><font></font>
+You have signed these user IDs:<font></font>
+     Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+   signed by B87DBA93 at 1999-06-28<font></font>
+     Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+   signed by B87DBA93 at 1999-06-28<font></font>
+user ID: "Chloe (Jester) &lt;chloe@cyb.org&gt;"<font></font>
+signed with your key B87DBA93 at 1999-06-28<font></font>
+Create a revocation certificate for this signature? (y/N)n<font></font>
+user ID: "Chloe (Plebian) &lt;chloe@tel.net&gt;"<font></font>
+signed with your key B87DBA93 at 1999-06-28<font></font>
+Create a revocation certificate for this signature? (y/N)y<font></font>
+You are about to revoke these signatures:<font></font>
+     Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+   signed by B87DBA93 at 1999-06-28<font></font>
+Really create the revocation certificates? (y/N)y<font></font>
+<font></font>
+You need a passphrase to unlock the secret key for<font></font>
+user: "Chloe (Jester) &lt;chloe@cyb.org&gt;"<font></font>
+1024-bit DSA key, ID B87DBA93, created 1999-06-28<font></font>
+<font></font>
+<font></font>
+pub  1024D/B87DBA93  created: 1999-06-28 expires: never      trust: -/u<font></font>
+sub  2048g/B7934539  created: 1999-06-28 expires: never<font></font>
+sub  1792G/4E3160AD  created: 1999-06-29 expires: 2000-06-28<font></font>
+rev! subkey has been revoked: 1999-06-29<font></font>
+sub   960D/E1F56448  created: 1999-06-29 expires: 2000-06-28<font></font>
+(1)  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+(2)  Chloe (Plebian) &lt;chloe@tel.net&gt;</pre><p>A revoked user ID is indicated by the revocation signature on
+the ID when the signatures on the key's user IDs are listed.</p><pre class="SCREEN"><tt class="PROMPT">Command&gt;</tt> <tt class="USERINPUT"><b>check</b></tt><font></font>
+uid  Chloe (Jester) &lt;chloe@cyb.org&gt;<font></font>
+sig!	   B87DBA93 1999-06-28	 [self-signature]<font></font>
+uid  Chloe (Plebian) &lt;chloe@tel.net&gt;<font></font>
+rev!	   B87DBA93 1999-06-29	 [revocation]<font></font>
+sig!	   B87DBA93 1999-06-28	 [self-signature]</pre><p>Revoking both subkeys and self-signatures on user IDs adds revocation
+self-signatures to the key.
+Since signatures are being added and no material is deleted, a
+revocation will always be visible to others when your updated public
+key is distributed and merged with older copies of it.
+Revocation therefore guarantees that everybody has a consistent
+copy of your public key.</p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN329">Updating a key's expiration time</a></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Waktu kedaluwarsa kunci dapat diperbarui dengan perintah
+ </font></font><b class="COMMAND"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kedaluwarsa</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dari menu edit kunci. </font><font style="vertical-align: inherit;">Jika tidak ada kunci yang dipilih, waktu kedaluwarsa dari kunci utama akan diperbarui. </font><font style="vertical-align: inherit;">Jika tidak, waktu kedaluwarsa dari kunci bawahan yang dipilih akan diperbarui.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Waktu kedaluwarsa kunci dikaitkan dengan tanda tangan kunci itu sendiri. </font><font style="vertical-align: inherit;">Waktu kedaluwarsa diperbarui dengan menghapus tanda tangan lama dan menambahkan tanda tangan baru. </font><font style="vertical-align: inherit;">Karena koresponden tidak akan menghapus tanda tangan lama, mereka akan melihat tanda tangan tambahan pada kunci ketika mereka memperbarui salinan kunci Anda. </font><font style="vertical-align: inherit;">Namun, tanda tangan diri terbaru lebih diutamakan, jadi semua koresponden akan mengetahui dengan jelas waktu kedaluwarsa kunci Anda.</font></font></p></div></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN335"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Memvalidasi kunci lain pada keyring publik Anda</font></font></a></h1><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dalam Bab </font></font><a href="https://www.gnupg.org/gph/en/manual.html#INTRO"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> prosedur diberikan untuk memvalidasi kunci publik koresponden Anda: kunci koresponden divalidasi dengan secara pribadi memeriksa sidik jari kuncinya dan kemudian menandatangani kunci publiknya dengan kunci pribadi Anda. </font><font style="vertical-align: inherit;">Dengan memeriksa sidik jari secara pribadi, Anda dapat memastikan bahwa kunci tersebut benar-benar miliknya, dan karena Anda telah menandatangani kunci tersebut, Anda dapat mendeteksi adanya gangguan di masa mendatang. </font><font style="vertical-align: inherit;">Sayangnya, prosedur ini canggung ketika Anda harus memvalidasi sejumlah besar kunci atau berkomunikasi dengan orang yang tidak Anda kenal secara pribadi.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GnuPG mengatasi masalah ini dengan mekanisme yang dikenal sebagai </font></font><i class="FIRSTTERM"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">web of trust</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Dalam model web kepercayaan, tanggung jawab untuk memvalidasi kunci publik didelegasikan kepada orang yang Anda percayai. </font><font style="vertical-align: inherit;">Misalnya, misalkan
+</font></font></p><p></p><ul compact="COMPACT"><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alice telah menandatangani kunci Blake, dan</font></font></p></li><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake telah menandatangani kunci Chloe dan kunci Dharma.</font></font></p></li></ul><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Jika Alice mempercayai Blake untuk memvalidasi kunci yang ditandatanganinya dengan benar, maka Alice dapat menyimpulkan bahwa kunci Chloe dan Dharma valid tanpa harus memeriksanya secara pribadi. </font><font style="vertical-align: inherit;">Dia hanya menggunakan salinan kunci publik Blake yang divalidasi untuk memeriksa apakah tanda tangan Blake di Chloe dan Dharma bagus. </font><font style="vertical-align: inherit;">Secara umum, dengan asumsi bahwa Alice sepenuhnya mempercayai semua orang untuk memvalidasi kunci yang mereka tandatangani dengan benar, maka kunci apa pun yang ditandatangani oleh kunci yang valid juga dianggap valid. </font><font style="vertical-align: inherit;">Akarnya adalah kunci Alice, yang secara aksiomatis dianggap valid.</font></font><p></p><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN346"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Percaya pada pemilik kunci</font></font></a></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dalam prakteknya kepercayaan itu subjektif. </font><font style="vertical-align: inherit;">Misalnya, kunci Blake valid untuk Alice sejak dia menandatanganinya, tetapi dia mungkin tidak mempercayai Blake untuk memvalidasi kunci yang ditandatanganinya dengan benar. </font><font style="vertical-align: inherit;">Dalam hal ini, dia tidak akan menganggap kunci Chloe dan Dharma sebagai valid berdasarkan tanda tangan Blake saja. </font><font style="vertical-align: inherit;">Model web kepercayaan menjelaskan hal ini dengan mengaitkan setiap kunci publik pada keyring Anda sebagai indikasi seberapa besar Anda memercayai pemilik kunci tersebut. </font><font style="vertical-align: inherit;">Ada empat tingkat kepercayaan.
+
+</font></font></p><p></p><div class="VARIABLELIST"><dl><dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tidak dikenal</font></font></dt><dd><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tidak ada yang diketahui tentang penilaian pemilik dalam penandatanganan kunci. </font><font style="vertical-align: inherit;">Kunci pada keyring publik Anda yang tidak Anda miliki awalnya memiliki tingkat kepercayaan ini.</font></font></p></dd><dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tidak ada</font></font></dt><dd><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pemiliknya diketahui menandatangani kunci lain dengan tidak benar.</font></font></p></dd><dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">marjinal</font></font></dt><dd><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pemilik memahami implikasi dari penandatanganan kunci dan memvalidasi kunci dengan benar sebelum menandatanganinya.</font></font></p></dd><dt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">penuh</font></font></dt><dd><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pemiliknya memiliki pemahaman yang sangat baik tentang penandatanganan kunci, dan tanda tangannya pada kunci akan sama bagusnya dengan milik Anda.</font></font></p></dd></dl></div><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Tingkat kepercayaan kunci adalah sesuatu yang Anda tetapkan sendiri untuk kunci tersebut, dan itu dianggap sebagai informasi pribadi. </font><font style="vertical-align: inherit;">Itu tidak dikemas dengan kunci saat diekspor; </font><font style="vertical-align: inherit;">bahkan disimpan secara terpisah dari keyrings Anda dalam database terpisah.</font></font><p></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Editor kunci GnuPG dapat digunakan untuk menyesuaikan kepercayaan Anda pada pemilik kunci. </font><font style="vertical-align: inherit;">Perintahnya adalah </font></font><b class="COMMAND"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kepercayaan</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Dalam contoh ini Alice mengedit kepercayaannya pada Blake dan kemudian memperbarui database kepercayaan untuk menghitung ulang kunci mana yang valid berdasarkan kepercayaan barunya pada Blake.
+
+</font></font></p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --edit-key blake</font></font></b></tt><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/8B927C8A dibuat: 1999-07-02 kedaluwarsa: tidak pernah percaya: q/f</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/C19EA233 dibuat: 1999-07-02 kedaluwarsa: tidak pernah</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+(1) Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font>
+<font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perintah&gt; </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kepercayaan</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/8B927C8A dibuat: 1999-07-02 kedaluwarsa: tidak pernah percaya: q/f</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/C19EA233 dibuat: 1999-07-02 kedaluwarsa: tidak pernah</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+(1) Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Silakan putuskan seberapa jauh Anda mempercayai pengguna ini dengan benar</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+memverifikasi kunci pengguna lain (dengan melihat paspor,</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+memeriksa sidik jari dari sumber yang berbeda...)?</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ 1 = Tidak tahu</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ 2 = Saya TIDAK percaya</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ 3 = Saya sedikit percaya</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ 4 = Saya percaya sepenuhnya</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ s = tolong tunjukkan saya informasi lebih lanjut</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+ m = kembali ke menu utama</font></font><font></font>
+<font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Keputusan Anda? </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></b></tt><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+pub 1024D/8B927C8A dibuat: 1999-07-02 kedaluwarsa: tidak pernah percaya: m/f</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+sub 1024g/C19EA233 dibuat: 1999-07-02 kedaluwarsa: tidak pernah</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+(1) Blake (Algojo) &lt;blake@cyb.org&gt;</font></font><font></font>
+<font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perintah&gt;</font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> keluar</font></font></b></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+[...]</font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Percaya pada pemilik kunci dan validitas kunci ditunjukkan di sebelah kanan saat kunci ditampilkan. </font><font style="vertical-align: inherit;">Kepercayaan pada pemilik ditampilkan pertama dan validitas kunci kedua </font></font><a name="AEN378" href="https://www.gnupg.org/gph/en/manual.html#FTN.AEN378"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[4]</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Empat tingkat kepercayaan/validitas disingkat: tidak diketahui ( </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">q</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ), tidak ada ( </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ), marginal ( </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">m</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ), dan penuh ( </font></font><tt class="LITERAL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">f</font></font></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ). </font><font style="vertical-align: inherit;">Dalam hal ini, kunci Blake sepenuhnya valid sejak Alice menandatanganinya sendiri. </font><font style="vertical-align: inherit;">Dia awalnya memiliki kepercayaan yang tidak diketahui pada Blake untuk menandatangani kunci lain dengan benar tetapi memutuskan untuk mempercayainya sedikit.</font></font><p></p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN385"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Menggunakan kepercayaan untuk memvalidasi kunci</font></font></a></h2><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jaringan kepercayaan memungkinkan algoritma yang lebih rumit digunakan untuk memvalidasi kunci. </font><font style="vertical-align: inherit;">Sebelumnya, kunci dianggap valid hanya jika Anda menandatanganinya secara pribadi. </font><font style="vertical-align: inherit;">Algoritma yang lebih fleksibel sekarang dapat digunakan: kunci </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dianggap valid jika memenuhi dua kondisi:
+</font></font></p><p></p><ol compact="COMPACT" type="1"><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">itu ditandatangani oleh kunci yang cukup valid, artinya
+</font></font></p><p></p><ul compact="COMPACT"><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anda telah menandatanganinya secara pribadi,</font></font></p></li><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">itu telah ditandatangani oleh satu kunci yang sepenuhnya tepercaya, atau</font></font></p></li><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">itu telah ditandatangani oleh tiga kunci yang sedikit dipercaya; </font><font style="vertical-align: inherit;">dan</font></font></p></li></ul><p></p></li><li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jalur kunci bertanda yang mengarah dari </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> kembali ke kunci Anda sendiri adalah lima langkah atau lebih pendek.</font></font></p></li></ol><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Panjang jalur, jumlah kunci yang sedikit dipercaya yang diperlukan, dan jumlah kunci yang sepenuhnya dipercaya yang diperlukan dapat disesuaikan. </font><font style="vertical-align: inherit;">Angka-angka yang diberikan di atas adalah nilai default yang digunakan oleh GnuPG.</font></font><p></p><p><a href="https://www.gnupg.org/gph/en/manual.html#WOT-EXAMPLES"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gambar 3-1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> menunjukkan jaringan kepercayaan yang berakar pada Alice. </font><font style="vertical-align: inherit;">Grafik menggambarkan siapa yang telah menandatangani kunci siapa. </font><font style="vertical-align: inherit;">Tabel menunjukkan kunci mana yang dianggap valid oleh Alice berdasarkan kepercayaannya pada anggota web lainnya. </font><font style="vertical-align: inherit;">Contoh ini mengasumsikan bahwa dua kunci yang sedikit dipercaya atau satu kunci yang sepenuhnya dipercaya diperlukan untuk memvalidasi kunci lain. </font><font style="vertical-align: inherit;">Panjang jalur maksimum adalah tiga.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Saat menghitung kunci yang valid dalam contoh, Blake dan Dharma selalu dianggap sepenuhnya valid karena ditandatangani langsung oleh Alice. </font><font style="vertical-align: inherit;">Validitas kunci lainnya tergantung pada kepercayaan. </font><font style="vertical-align: inherit;">Dalam kasus pertama, Dharma dipercaya sepenuhnya, yang menyiratkan bahwa kunci Chloe dan Francis akan dianggap sah. </font><font style="vertical-align: inherit;">Dalam contoh kedua, Blake dan Dharma sedikit dipercaya. </font><font style="vertical-align: inherit;">Karena dua kunci yang sedikit dipercaya diperlukan untuk memvalidasi kunci sepenuhnya, kunci Chloe akan dianggap sepenuhnya valid, tetapi kunci Francis akan dianggap hanya sedikit valid. </font><font style="vertical-align: inherit;">Dalam kasus di mana Chloe dan Dharma sedikit dipercaya, kunci Chloe akan sedikit valid karena kunci Dharma sepenuhnya valid. </font><font style="vertical-align: inherit;">Kunci Francis, bagaimanapun, juga akan dianggap valid secara marginal karena hanya kunci yang sepenuhnya valid yang dapat digunakan untuk memvalidasi kunci lain, dan Dharma' </font><font style="vertical-align: inherit;">kunci s adalah satu-satunya kunci yang sepenuhnya valid yang telah digunakan untuk menandatangani kunci Francis. </font><font style="vertical-align: inherit;">Ketika kepercayaan marginal pada Blake ditambahkan, kunci Chloe menjadi valid sepenuhnya dan kemudian dapat digunakan untuk sepenuhnya memvalidasi kunci Francis dan memvalidasi kunci Elena secara marginal. </font><font style="vertical-align: inherit;">Terakhir, ketika Blake, Chloe, dan Elena sepenuhnya dipercaya, ini masih tidak cukup untuk memvalidasi kunci Geoff karena jalur sertifikasi maksimum adalah tiga, tetapi panjang jalur dari Geoff kembali ke Alice adalah empat.</font></font></p><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Model web of trust adalah pendekatan yang fleksibel untuk masalah pertukaran kunci publik yang aman. </font><font style="vertical-align: inherit;">Ini memungkinkan Anda untuk menyetel GnuPG untuk mencerminkan bagaimana Anda menggunakannya. </font><font style="vertical-align: inherit;">Pada satu ekstrem Anda mungkin bersikeras pada beberapa jalur pendek dari kunci Anda ke kunci </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> lain </font><font style="vertical-align: inherit;">untuk mempercayainya. </font><font style="vertical-align: inherit;">Di sisi lain, Anda mungkin puas dengan jalur yang lebih panjang dan mungkin sesedikit satu jalur dari kunci Anda ke kunci lainnya </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Membutuhkan banyak jalur pendek adalah jaminan kuat bahwa </font></font><i class="EMPHASIS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> milik siapa yang Anda pikirkan. </font><font style="vertical-align: inherit;">Harganya, tentu saja, adalah lebih sulit untuk memvalidasi kunci karena Anda harus menandatangani lebih banyak kunci secara pribadi daripada jika Anda menerima jalur yang lebih sedikit dan lebih panjang.</font></font></p><div class="FIGURE"><a name="WOT-EXAMPLES"></a><p><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gambar 3-1. </font><font style="vertical-align: inherit;">Jaringan kepercayaan hipotetis</font></font></b></p><div class="MEDIAOBJECT"><p><img src="https://www.gnupg.org/gph/en/signatures.jpg" alt="A graph indicating who has signed who's key"></p></div><div class="INFORMALTABLE"><p></p><table border="1" class="CALSTABLE"><thead><tr><th colspan="2" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">memercayai</font></font></th><th colspan="2" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">keabsahan</font></font></th></tr><tr><th width="25%" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">marjinal</font></font></th><th width="25%" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">penuh</font></font></th><th width="25%" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">marjinal</font></font></th><th width="25%" align="CENTER" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">penuh</font></font></th></tr></thead><tbody><tr><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dharma</font></font></td><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Dharma, Francis</font></font></td></tr><tr><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Dharma</font></font></td><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fransiskus</font></font></td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Dharma</font></font></td></tr><tr><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chloe, Dharma</font></font></td><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chloe, Francis</font></font></td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Dharma</font></font></td></tr><tr><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Dharma</font></font></td><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elena</font></font></td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Dharma, Francis</font></font></td></tr><tr><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Elena</font></font></td><td width="25%" align="LEFT" valign="TOP">&nbsp;</td><td width="25%" align="LEFT" valign="TOP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blake, Chloe, Elena, Francis</font></font></td></tr></tbody></table><p></p></div></div></div></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN464"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mendistribusikan kunci</font></font></a></h1><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Idealnya, Anda mendistribusikan kunci Anda dengan memberikannya secara pribadi kepada koresponden Anda. </font><font style="vertical-align: inherit;">Namun, dalam praktiknya, kunci sering kali didistribusikan melalui email atau media komunikasi elektronik lainnya. </font><font style="vertical-align: inherit;">Distribusi melalui email adalah praktik yang baik ketika Anda hanya memiliki sedikit koresponden, dan bahkan jika Anda memiliki banyak koresponden, Anda dapat menggunakan cara alternatif seperti memposting kunci publik Anda di beranda World Wide Web Anda. </font><font style="vertical-align: inherit;">Namun, ini tidak dapat diterima jika orang yang membutuhkan kunci publik Anda tidak tahu di mana menemukannya di Web.</font></font></p><p>To solve this problem public key servers are used to collect
+and distribute public keys.
+A public key received by the server is either added to the server's
+database or merged with the existing key if already present.
+When a key request comes to the server, the server consults its
+database and returns the requested public key if found.</p><p>A keyserver is also valuable when many people are frequently signing other
+people's keys.
+Without a keyserver, when Blake sign's Alice's key then Blake would send
+Alice a copy of her public key signed by him so that Alice could
+add the updated key to her ring as well as distribute it to all of her
+correspondents.
+Going through this effort fulfills Alice's and Blake's responsibility
+to the community at large in building tight webs of trust and thus
+improving the security of PGP.
+It is nevertheless a nuisance if key signing is frequent.</p><p>Using a keyserver makes the process somewhat easier.
+When Blake signs Alice's key he sends the signed key to the key server.
+The key server adds Blake's signature to its copy of Alice's key.
+Individuals interested in updating their copy of Alice's key then consult
+the keyserver on their own initiative to retrieve the updated key.
+Alice need never be involved with distribution and can retrieve signatures
+on her key simply by querying a keyserver.</p><p>One or more keys may be sent to a keyserver using the command-line
+option <tt class="OPTION">--send-keys</tt>.
+The option takes one or more key specifiers and sends the specified
+keys to the key server.
+The key server to which to send the keys is specified with the
+command-line option <tt class="OPTION">--keyserver</tt>.
+Similarly, the option
+<tt class="OPTION">--recv-keys</tt> is used
+to retrieve keys from a keyserver, but the option <tt class="OPTION">--recv-keys</tt>
+requires a key ID be used to specify the key.
+In the following example Alice updates her public key with new signatures
+from the keyserver <tt class="PARAMETER"><i>certserver.pgp.com</i></tt> and then
+sends her copy of Blake's public key to the same keyserver to contribute
+any new signatures she may have added.
+
+</p><pre class="SCREEN"><tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --keyserver certserver.pgp.com --recv-key 0xBB7576AC</font></font></b></tt><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: meminta kunci BB7576AC dari certserver.pgp.com ...</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: kunci BB7576AC: 1 tanda tangan baru</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: Jumlah total yang diproses: 1</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+gpg: tanda tangan baru: 1</font></font><font></font>
+<tt class="PROMPT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alice% </font></font></tt> <tt class="USERINPUT"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpg --keyserver certserver.pgp.com --send-key blake@cyb.org</font></font></b></tt><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+gpg: berhasil mengirim ke 'certserver.pgp.com' (status=200)</font></font></pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+
+Ada beberapa server kunci populer yang digunakan di seluruh dunia. </font><font style="vertical-align: inherit;">Server kunci utama menyinkronkan dirinya sendiri, jadi tidak masalah untuk memilih server kunci yang dekat dengan Anda di Internet dan kemudian menggunakannya secara teratur untuk mengirim dan menerima kunci.</font></font><p></p></div></div><div class="CHAPTER"><hr><h1><a name="WISE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bab 4. Penggunaan GnuPG setiap hari</font></font></a></h1><p>GnuPG is a complex tool with technical, social, and legal issues
+surrounding it.
+Technically, it has been designed to be used in situations having
+drastically different security needs.
+This complicates key management.
+Socially, using GnuPG is not strictly a personal decision.
+To use GnuPG effectively both parties communicating must use it.
+Finally, as of 1999, laws regarding digital encryption, and in particular
+whether or not using GnuPG is legal, vary from country to country and 
+is currently being debated by many national governments.</p><p>This chapter addresses these issues.
+It gives practical advice on how to use GnuPG to meet your security needs.
+It also suggests ways to promote the use of GnuPG for secure
+communication between yourself and your colleagues when your colleagues
+are not currently using GnuPG.
+Finally, the legal status of GnuPG is outlined given the current status
+of encryption laws in the world.</p><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN494">Defining your security needs</a></h1><p>GnuPG is a tool you use to protect your privacy.
+Your privacy is protected if you can correspond with others without
+eavesdroppers reading those messages.</p><p>How you should use GnuPG depends on the determination and resourcefulness
+of those who might want to read your encrypted messages.
+An eavesdropper may be an unscrupulous system administrator casually
+scanning your mail, it might be an industrial spy trying to collect
+your company's secrets, or it might be a law enforcement agency trying
+to prosecute you.
+Using GnuPG to protect against casual eavesdropping is going to be
+different than using GnuPG to protect against a determined adversary.
+Your goal, ultimately, is to make it more expensive to recover the
+unencrypted data than that data is worth.</p><p>Customizing your use of GnuPG revolves around four issues:
+</p><p></p><ul compact="COMPACT"><li><p>choosing the key size of your public/private keypair,</p></li><li><p>protecting your private key, </p></li><li><p>selecting expiration dates and using subkeys, and</p></li><li><p>managing your web of trust.</p></li></ul>
+
+A well-chosen key size protects you against brute-force attacks on
+encrypted messages.
+Protecting your private key prevents an attacker from simply using your
+private key to decrypt encrypted messages and sign messages in your name.
+Correctly managing your web of trust prevents attackers from masquerading
+as people with whom you communicate.
+Ultimately, addressing these issues with respect to your own security
+needs is how you balance the extra work required to use GnuPG with
+the privacy it gives you.<p></p><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN508">Choosing a key size</a></h2><p>Selecting a key size depends on the key.
+In OpenPGP, a public/private keypair usually has multiple keys.
+At the least it has a master signing key, and it probably has one or
+more additional subkeys for encryption.
+Using default key generation parameters with GnuPG, the master
+key will be a DSA key, and the subkeys will be ElGamal keys.</p><p>DSA allows a key size up to 1024 bits.
+This is not especially good given today's factoring technology, but
+that is what the standard specifies.
+Without question, you should use 1024 bit DSA keys.</p><p>ElGamal keys, on the other hand, may be of any size.
+Since GnuPG is a hybrid public-key system, the public key is used
+to encrypt a 128-bit session key, and the private key is used to
+decrypt it.
+Key size nevertheless affects encryption and decryption speed
+since the cost of these algorithms is exponential in the size of
+the key.
+Larger keys also take more time to generate and take more space
+to store.
+Ultimately, there are diminishing returns on the extra security
+a large key provides you.
+After all, if the key is large enough to resist a brute-force
+attack, an eavesdropper will merely switch to some other method for
+obtaining your plaintext data.
+Examples of other methods include robbing your home or office
+and mugging you.
+1024 bits is thus the recommended key size.
+If you genuinely need a larger key size then you probably already
+know this and should be consulting an expert in data security.</p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN513">Protecting your private key</a></h2><p>Protecting your private key is the most important job you have to
+use GnuPG correctly.
+If someone obtains your private key, then all data encrypted to
+the private key can be decrypted and signatures can be made in your name.
+If you lose your private key, then you will no longer be able to 
+decrypt documents encrypted to you in the future or in the past,
+and you will not be able to make signatures.
+Losing sole possession of your private key is catastrophic.</p><p>Regardless of how you use GnuPG you should store the public
+key's <a href="https://www.gnupg.org/gph/en/manual.html#REVOCATION">revocation certificate</a> 
+and a backup of your private key on write-protected media in a safe place.
+For example, you could burn them on a CD-ROM and store them in your
+safe deposit box at the bank in a sealed envelope.
+Alternatively, you could store them on a floppy and hide it in your
+house.
+Whatever you do, they should be put on media that is safe to store
+for as long as you expect to keep the key, and you should store
+them more carefully than the copy of your private key you use daily.</p><p>To help safeguard your key, GnuPG does not store your raw
+private key on disk.
+Instead it encrypts it using a symmetric encryption algorithm.
+That is why you need a passphrase to access the key.
+Thus there are two barriers an attacker must cross to access your private
+key: (1) he must actually acquire the key, and (2) he must get past
+the encryption.</p><p>Safely storing your private key is important, but there is a cost.
+Ideally, you would keep the private key on a removable, write-protected disk
+such as a floppy disk, and you would use it on a single-user machine 
+not connected to a network.
+This may be inconvenient or impossible for you to do.
+For example, you may not own your own machine and must use a computer 
+at work or school, or it may mean you have to physically disconnect
+your computer from your cable modem every time you want to use GnuPG.</p><p>This does not mean you cannot or should not use GnuPG.
+It means only that you have decided that the data you are protecting is
+important enough to encrypt but not so important as to take extra
+steps to make the first barrier stronger.
+It is your choice.</p><p>A good passphrase is absolutely critical when using GnuPG.
+Any attacker who gains access to your private key must bypass the 
+encryption on the private key.
+Instead of brute-force guessing the key, an attacker will almost
+certainly instead try to guess the passphrase.</p><p>The motivation for trying passphrases is that most people choose
+a passphrase that is easier to guess than a random 128-bit key.
+If the passphrase is a word, it is much cheaper to try all the
+words in the dictionaries of the world's languages.
+Even if the word is permuted, e.g., k3wldood, it is still easier
+to try dictionary words with a catalog of permutations.
+The same problem applies to quotations.
+In general, passphrases based on natural-language utterances
+are poor passphrases since there is little randomness and lots
+of redundancy in natural language.
+You should avoid natural language passphrases if you can.</p><p>A good passphrase is one that you can remember but is hard for
+someone to guess.
+It should include characters from the whole range of printable characters
+on your keyboard.
+This includes uppercase alphabetics characters, numbers, and special
+characters such as <tt class="LITERAL">}</tt> and <tt class="LITERAL">|</tt>.
+Be creative and spend a little time considering your passphrase; a
+good choice is important to ensure your privacy.</p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN526">Selecting expiration dates and using subkeys</a></h2><p>By default, a DSA master signing key and an ElGamal encryption subkey 
+are generated when you create a new keypair.
+This is convenient, because the roles of the two keys are different,
+and you may therefore want the keys to have different lifetimes.
+The master signing key is used to make digital signatures, and it
+also collects the signatures of others who have confirmed your
+identity.
+The encryption key is used only for decrypting encrypted documents
+sent to you.
+Typically, a digital signature has a long lifetime, e.g., forever, and
+you also do not want to lose the signatures on your key that you worked
+hard to collect.
+On the other hand, the encryption subkey may be changed periodically
+for extra security, since if an encryption key is broken, the
+attacker can read all documents encrypted to that key both in the
+future and from the past.</p><p>It is almost always the case that you will not want the master
+key to expire.
+There are two reasons why you may choose an expiration date.
+First, you may intend for the key to have a limited lifetime.
+For example, it is being used for an event such as a political campaign
+and will no longer be useful after the campaign is over.
+Another reason is that if you lose control of the key and do not have a
+revocation certificate with which to revoke the key, having an expiration
+date on the master key ensures that the key will eventually fall into
+disuse.</p><p>Changing encryption subkeys is straightforward but can
+be inconvenient.
+If you generate a new keypair with an expiration date on the
+subkey, that subkey will eventually expire.
+Shortly before the expiration you will add a new subkey and
+publish your updated public key.
+Once the subkey expires, those who wish to correspond with you
+must find your updated key since they will no longer be able
+to encrypt to the expired key.
+This may be inconvenient depending on how you distribute the key.
+Fortunately, however, no extra signatures are necessary since
+the new subkey will have been signed with your master signing
+key, which presumably has already been validated by your
+correspondents.</p><p>The inconvenience may or may not be worth the extra security.
+Just as you can, an attacker can still read all documents encrypted to
+an expired subkey.
+Changing subkeys only protects future documents.
+In order to read documents encrypted to the new subkey, the
+attacker would need to mount a new attack using whatever
+techniques he used against you the first time.</p><p>Finally, it only makes sense to have one valid encryption subkey on a
+keyring.
+There is no additional security gained by having two or more 
+active subkeys.
+There may of course be any number of expired keys on a keyring
+so that documents encrypted in the past may still be decrypted,
+but only one subkey needs to be active at any given time.</p></div><div class="SECT2"><hr><h2 class="SECT2"><a name="AEN533">Managing your web of trust</a></h2><p>As with protecting your private key, managing your web of trust is
+another aspect of using GnuPG that requires balancing security against
+ease of use.
+If you are using GnuPG to protect against casual eavesdropping and
+forgeries then you can afford to be relatively trusting of other
+people's signatures.
+On the other hand, if you are concerned that there may be a determined
+attacker interested in invading your privacy, then
+you should be much less trusting of other signatures and spend more time 
+personally verifying signatures.</p><p>Regardless of your own security needs, though, you should 
+<i class="EMPHASIS">always be careful</i> when signing other keys.
+It is selfish to sign a key with just enough confidence in the key's
+validity to satisfy your own security needs.
+Others, with more stringent security needs, may want to depend on 
+your signature.
+If they cannot depend on you then that weakens the web of trust
+and makes it more difficult for all GnuPG users to communicate.
+Use the same care in signing keys that you would like others to use when
+you depend on their signatures.</p><p>In practice, managing your web of trust reduces to assigning trust to 
+others and tuning the options 
+<tt class="OPTION">--marginals-needed</tt>
+and 
+<tt class="OPTION">--completes-needed</tt>.
+Any key you personally sign will be considered valid, but except for small
+groups, it will not be practical to personally sign the key of every person
+with whom you communicate.
+You will therefore have to assign trust to others.</p><p>It is probably wise to be accurate when assigning trust and then
+use the options to tune how careful GnuPG is with key validation.
+As a concrete example, you may fully trust a few close friends that
+you know are careful with key signing and then marginally
+trust all others on your keyring.
+From there, you may set <tt class="OPTION">--completes-needed</tt> to
+<tt class="LITERAL">1</tt> and <tt class="OPTION">--marginals-needed</tt> to
+<tt class="LITERAL">2</tt>.
+If you are more concerned with security you might choose values of
+<tt class="LITERAL">1</tt> and <tt class="LITERAL">3</tt> or <tt class="LITERAL">2</tt>
+and <tt class="LITERAL">3</tt> respectively.
+If you are less concerned with privacy attacks and just want some
+reasonable confidence about validity, set the values to <tt class="LITERAL">1</tt>
+and <tt class="LITERAL">1</tt>.
+In general, higher numbers for these options imply that more people
+would be needed to conspire against you in order to have a key validated
+that does not actually belong to the person whom you think it does.</p></div></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN554">Building your web of trust</a></h1><p>Wanting to use GnuPG yourself is not enough.
+In order to use to communicate securely with others you must have
+a web of trust.
+At first glance, however, building a web of trust is a daunting task.
+The people with whom you communicate need to use 
+GnuPG<a name="AEN557" href="https://www.gnupg.org/gph/en/manual.html#FTN.AEN557">[5]</a>, and there needs to be enough 
+key signing so that keys can be considered valid.
+These are not technical problems; they are social problems.
+Nevertheless, you must overcome these problems if you want to 
+use GnuPG.</p><p>When getting started using GnuPG it is important to realize that you
+need not securely communicate with every one of your correspondents.
+Start with a small circle of people, perhaps just yourself and
+one or two others who also want to exercise their right
+to privacy.
+Generate your keys and sign each other's public keys.
+This is your initial web of trust.
+By doing this you will appreciate the value of a small, robust
+web of trust and will be more cautious as you grow your web
+in the future.</p><p>In addition to those in your initial web of trust, you may want to
+communicate securely with others who are also using GnuPG.
+Doing so, however, can be awkward for two reasons:
+(1) you do not always know when someone uses or is willing to use
+GnuPG, and (2) if you do know of someone who uses it, you may still have
+trouble validating their key.
+The first reason occurs because people do not always advertise that
+they use GnuPG.
+The way to change this behavior is to set the example and advertise 
+that you use GnuPG.
+There are at least three ways to do this: you can sign messages you mail
+to others or post to message boards, you can put your public key on your
+web page, or, if you put your key on a keyserver, you can put your key
+ID in your email signature.
+If you advertise your key then you make it that much more acceptable
+for others to advertise their keys.
+Furthermore, you make it easier for others to start communicating
+with you securely since you have taken the initiative and made it clear
+that you use GnuPG.</p><p>Key validation is more difficult.
+If you do not personally know the person whose key you want to sign,
+then it is not possible to sign the key yourself.
+You must rely on the signatures of others and hope to find a chain
+of signatures leading from the key in question back to your own.
+To have any chance of finding a chain, you must take the initiative
+and get your key signed by others outside of your initial web of trust.
+An effective way to accomplish this is to participate in key
+signing parties.
+If you are going to a conference look ahead of time for a key
+signing party, and if you do not see one being held, offer to 
+<a href="http://www.herrons.com/kb2nsx/keysign.html" target="_top">hold one</a>.
+You can also be more passive and carry your fingerprint with you
+for impromptu key exchanges.
+In such a situation the person to whom you gave the fingerprint
+would verify it and sign your public key once he returned home.</p><p>Keep in mind, though, that this is optional.
+You have no obligation to either publicly advertise your key or
+sign other people's keys.
+The power of GnuPG is that it is flexible enough to adapt to your
+security needs whatever they may be.
+The social reality, however, is that you will need to take the initiative
+if you want to grow your web of trust and use GnuPG for as much of 
+your communication as possible.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN564">Using GnuPG legally</a></h1><p>The legal status of encryption software varies from country to country,
+and law regarding encryption software is rapidly evolving.
+<a href="http://cwis.kub.nl/~frw/people/koops/bertjaap.htm" target="_top">Bert-Japp 
+Koops</a> has an excellent 
+<a href="http://cwis.kub.nl/~frw/people/koops/lawsurvy.htm" target="_top">Crypto
+Law Survey</a> to which you should refer for the legal status of
+encryption software in your country.</p></div></div><div class="CHAPTER"><hr><h1><a name="MODULES">Chapter 5. Topics</a></h1><p>This chapter covers miscellaneous topics that do not fit
+elsewhere in the user manual.
+As topics are added, they may be collected and factored into chapters
+that stand on their own.
+If you would like to see a particular topic covered, please suggest it.
+Even better, volunteer to write a first draft covering your suggested topic!</p><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN574">Writing user interfaces</a></h1><p><a href="http://www.cs.cmu.edu/~alma" target="_top">Alma Whitten</a> and 
+<a href="http://www.cs.berkeley.edu/~tygar" target="_top">Doug Tygar</a> have done a 
+<a href="http://reports-archive.adm.cs.cmu.edu/anon/1998/abstracts/98-155.html" target="_top">study</a>
+on NAI's PGP 5.0 user interface and came to the conclusion 
+that novice users find PGP confusing and frustrating.
+In their human factors study, only four out of twelve test subjects
+managed to correctly send encrypted email to their team members, 
+and three out of twelve emailed the secret without encryption. 
+Furthermore, half of the test subjects had a technical background.</p><p>These results are not surprising.
+PGP 5.0 has a nice user interface that is excellent if you already
+understand how public-key encryption works and are familiar with
+the web-of-trust key management model specified by OpenPGP.
+Unfortunately, novice users understand neither public-key encryption
+nor key management, and the user interface does little to help.</p><p>You should certainly read Whitten and Tygar's report if you are writing
+a user interface.
+It gives specific comments from each of the test subjects, and those
+details are enlightening. 
+For example, it would appear that many of subjects believed that a
+message being sent to other people should be encrypted to the test
+subject's own public key.
+Consider it for a minute, and you will see that it is an easy mistake
+to make.
+In general, novice users have difficulty understanding the different
+roles of the public key and private key when using GnuPG.
+As a user interface designer, you should try to make it clear at 
+all times when one of the two keys is being used.
+You could also use wizards or other common GUI techniques for
+guiding the user through common tasks, such as key generation, where
+extra steps, such as generating a key revocation certification and 
+making a backup, are all but essential for using GnuPG correctly.
+Other comments from the paper include the following.
+</p><p></p><ul><li><p>Security is usually a secondary goal; people want to send
+email, browse, and so on.  
+Do not assume users will be motivated to read manuals or go 
+looking for security controls.</p></li><li><p>The security of a networked computer is only as strong as its 
+weakest component. 
+Users need to be guided to attend to all aspects of their security, 
+not left to proceed through random exploration as they might with a 
+word processor or a spreadsheet.</p></li><li><p>Consistently use the same terms for the same actions.
+Do not alternate between synonyms like ``encrypt'' and 
+``encipher''.</p></li><li><p>For inexperienced users, simplify the display. 
+Too much information hides the important information.
+An initial display configuration could concentrate on giving
+the user the correct model of the relationship between public 
+and private keys and a clear understanding of the functions 
+for acquiring and distributing keys.</p></li></ul><p></p><p>Designing an effective user interface for key management is even more
+difficult.
+The OpenPGP web-of-trust model is unfortunately quite obtuse.
+For example, the specification imposes three arbitrary trust levels
+onto the user: none, marginal, and complete.
+All degrees of trust felt by the user must be fit into one of those
+three cubbyholes.
+The key validation algorithm is also difficult for non-computer scientists
+to understand, particularly the notions of ``marginals needed'' and
+``completes needed''.
+Since the web-of-trust model is well-specified and cannot be changed,
+you will have to do your best and design a user interface that helps
+to clarify it for the user.
+A definite improvement, for example, would be to generate a diagram of how
+a key was validated when requested by the user.
+Relevant comments from the paper include the following.
+</p><p></p><ul><li><p>Users are likely to be uncertain on how and when to grant accesses.</p></li><li><p>Place a high priority on making sure users understand their
+security well enough to prevent them from making potentially
+high-cost mistakes.  
+Such mistakes include
+accidentally deleting the private key,
+accidentally publicizing a key, accidentally revoking a key,
+forgetting the pass phrase, and failing to back up the key rings.</p></li></ul><p></p></div></div><div class="APPENDIX"><hr><h1><a name="GFDL">Appendix A. GNU Free Documentation License</a></h1><p>Version 1.1, March 2000</p><blockquote class="BLOCKQUOTE"><p>Copyright (C) 2000  Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.</p></blockquote><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN604">0. PREAMBLE</a></h1><p>The purpose of this License is to make a manual, textbook,
+    or other written document "free" in the sense of freedom: to
+    assure everyone the effective freedom to copy and redistribute it,
+    with or without modifying it, either commercially or
+    noncommercially.  Secondarily, this License preserves for the
+    author and publisher a way to get credit for their work, while not
+    being considered responsible for modifications made by
+    others.</p><p>This License is a kind of "copyleft", which means that
+    derivative works of the document must themselves be free in the
+    same sense.  It complements the GNU General Public License, which
+    is a copyleft license designed for free software.</p><p>We have designed this License in order to use it for manuals
+    for free software, because free software needs free documentation:
+    a free program should come with manuals providing the same
+    freedoms that the software does.  But this License is not limited
+    to software manuals; it can be used for any textual work,
+    regardless of subject matter or whether it is published as a
+    printed book.  We recommend this License principally for works
+    whose purpose is instruction or reference.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN609">1. APPLICABILITY AND DEFINITIONS</a></h1><p>This License applies to any manual or other work that
+    contains a notice placed by the copyright holder saying it can be
+    distributed under the terms of this License.  The "Document",
+    below, refers to any such manual or work.  Any member of the
+    public is a licensee, and is addressed as "you".</p><p>A "Modified Version" of the Document means any work
+    containing the Document or a portion of it, either copied
+    verbatim, or with modifications and/or translated into another
+    language.</p><p>A "Secondary Section" is a named appendix or a front-matter
+    section of the Document that deals exclusively with the
+    relationship of the publishers or authors of the Document to the
+    Document's overall subject (or to related matters) and contains
+    nothing that could fall directly within that overall subject.
+    (For example, if the Document is in part a textbook of
+    mathematics, a Secondary Section may not explain any mathematics.)
+    The relationship could be a matter of historical connection with
+    the subject or with related matters, or of legal, commercial,
+    philosophical, ethical or political position regarding
+    them.</p><p>The "Invariant Sections" are certain Secondary Sections
+    whose titles are designated, as being those of Invariant Sections,
+    in the notice that says that the Document is released under this
+    License.</p><p>The "Cover Texts" are certain short passages of text that
+    are listed, as Front-Cover Texts or Back-Cover Texts, in the
+    notice that says that the Document is released under this
+    License.</p><p>A "Transparent" copy of the Document means a
+    machine-readable copy, represented in a format whose specification
+    is available to the general public, whose contents can be viewed
+    and edited directly and straightforwardly with generic text
+    editors or (for images composed of pixels) generic paint programs
+    or (for drawings) some widely available drawing editor, and that
+    is suitable for input to text formatters or for automatic
+    translation to a variety of formats suitable for input to text
+    formatters.  A copy made in an otherwise Transparent file format
+    whose markup has been designed to thwart or discourage subsequent
+    modification by readers is not Transparent.  A copy that is not
+    "Transparent" is called "Opaque".</p><p>Examples of suitable formats for Transparent copies include
+    plain ASCII without markup, Texinfo input format, LaTeX input
+    format, SGML or XML using a publicly available DTD, and
+    standard-conforming simple HTML designed for human modification.
+    Opaque formats include PostScript, PDF, proprietary formats that
+    can be read and edited only by proprietary word processors, SGML
+    or XML for which the DTD and/or processing tools are not generally
+    available, and the machine-generated HTML produced by some word
+    processors for output purposes only.</p><p>The "Title Page" means, for a printed book, the title page
+    itself, plus such following pages as are needed to hold, legibly,
+    the material this License requires to appear in the title page.
+    For works in formats which do not have any title page as such,
+    "Title Page" means the text near the most prominent appearance of
+    the work's title, preceding the beginning of the body of the
+    text.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN619">2. VERBATIM COPYING</a></h1><p>You may copy and distribute the Document in any medium,
+    either commercially or noncommercially, provided that this
+    License, the copyright notices, and the license notice saying this
+    License applies to the Document are reproduced in all copies, and
+    that you add no other conditions whatsoever to those of this
+    License.  You may not use technical measures to obstruct or
+    control the reading or further copying of the copies you make or
+    distribute.  However, you may accept compensation in exchange for
+    copies.  If you distribute a large enough number of copies you
+    must also follow the conditions in section 3.</p><p>You may also lend copies, under the same conditions stated
+    above, and you may publicly display copies.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN623">3. COPYING IN QUANTITY</a></h1><p>If you publish printed copies of the Document numbering more
+    than 100, and the Document's license notice requires Cover Texts,
+    you must enclose the copies in covers that carry, clearly and
+    legibly, all these Cover Texts: Front-Cover Texts on the front
+    cover, and Back-Cover Texts on the back cover.  Both covers must
+    also clearly and legibly identify you as the publisher of these
+    copies.  The front cover must present the full title with all
+    words of the title equally prominent and visible.  You may add
+    other material on the covers in addition.  Copying with changes
+    limited to the covers, as long as they preserve the title of the
+    Document and satisfy these conditions, can be treated as verbatim
+    copying in other respects.</p><p>If the required texts for either cover are too voluminous to
+    fit legibly, you should put the first ones listed (as many as fit
+    reasonably) on the actual cover, and continue the rest onto
+    adjacent pages.</p><p>If you publish or distribute Opaque copies of the Document
+    numbering more than 100, you must either include a
+    machine-readable Transparent copy along with each Opaque copy, or
+    state in or with each Opaque copy a publicly-accessible
+    computer-network location containing a complete Transparent copy
+    of the Document, free of added material, which the general
+    network-using public has access to download anonymously at no
+    charge using public-standard network protocols.  If you use the
+    latter option, you must take reasonably prudent steps, when you
+    begin distribution of Opaque copies in quantity, to ensure that
+    this Transparent copy will remain thus accessible at the stated
+    location until at least one year after the last time you
+    distribute an Opaque copy (directly or through your agents or
+    retailers) of that edition to the public.</p><p>It is requested, but not required, that you contact the
+    authors of the Document well before redistributing any large
+    number of copies, to give them a chance to provide you with an
+    updated version of the Document.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN629">4. MODIFICATIONS</a></h1><p>You may copy and distribute a Modified Version of the
+    Document under the conditions of sections 2 and 3 above, provided
+    that you release the Modified Version under precisely this
+    License, with the Modified Version filling the role of the
+    Document, thus licensing distribution and modification of the
+    Modified Version to whoever possesses a copy of it.  In addition,
+    you must do these things in the Modified Version:</p><p></p><ol type="A"><li><p>Use in the Title Page
+      (and on the covers, if any) a title distinct from that of the
+      Document, and from those of previous versions (which should, if
+      there were any, be listed in the History section of the
+      Document).  You may use the same title as a previous version if
+      the original publisher of that version gives permission.</p></li><li><p>List on the Title Page,
+      as authors, one or more persons or entities responsible for
+      authorship of the modifications in the Modified Version,
+      together with at least five of the principal authors of the
+      Document (all of its principal authors, if it has less than
+      five).</p></li><li><p>State on the Title page
+      the name of the publisher of the Modified Version, as the
+      publisher.</p></li><li><p>Preserve all the
+      copyright notices of the Document.</p></li><li><p>Add an appropriate
+      copyright notice for your modifications adjacent to the other
+      copyright notices.</p></li><li><p>Include, immediately
+      after the copyright notices, a license notice giving the public
+      permission to use the Modified Version under the terms of this
+      License, in the form shown in the Addendum below.</p></li><li><p>Preserve in that license
+      notice the full lists of Invariant Sections and required Cover
+      Texts given in the Document's license notice.</p></li><li><p>Include an unaltered
+      copy of this License.</p></li><li><p>Preserve the section
+      entitled "History", and its title, and add to it an item stating
+      at least the title, year, new authors, and publisher of the
+      Modified Version as given on the Title Page.  If there is no
+      section entitled "History" in the Document, create one stating
+      the title, year, authors, and publisher of the Document as given
+      on its Title Page, then add an item describing the Modified
+      Version as stated in the previous sentence.</p></li><li><p>Preserve the network
+      location, if any, given in the Document for public access to a
+      Transparent copy of the Document, and likewise the network
+      locations given in the Document for previous versions it was
+      based on.  These may be placed in the "History" section.  You
+      may omit a network location for a work that was published at
+      least four years before the Document itself, or if the original
+      publisher of the version it refers to gives permission.</p></li><li><p>In any section entitled
+      "Acknowledgements" or "Dedications", preserve the section's
+      title, and preserve in the section all the substance and tone of
+      each of the contributor acknowledgements and/or dedications
+      given therein.</p></li><li><p>Preserve all the
+      Invariant Sections of the Document, unaltered in their text and
+      in their titles.  Section numbers or the equivalent are not
+      considered part of the section titles.</p></li><li><p>Delete any section
+      entitled "Endorsements".  Such a section may not be included in
+      the Modified Version.</p></li><li><p>Do not retitle any
+      existing section as "Endorsements" or to conflict in title with
+      any Invariant Section.</p></li></ol><p>If the Modified Version includes new front-matter sections
+    or appendices that qualify as Secondary Sections and contain no
+    material copied from the Document, you may at your option
+    designate some or all of these sections as invariant.  To do this,
+    add their titles to the list of Invariant Sections in the Modified
+    Version's license notice.  These titles must be distinct from any
+    other section titles.</p><p>You may add a section entitled "Endorsements", provided it
+    contains nothing but endorsements of your Modified Version by
+    various parties--for example, statements of peer review or that
+    the text has been approved by an organization as the authoritative
+    definition of a standard.</p><p>You may add a passage of up to five words as a Front-Cover
+    Text, and a passage of up to 25 words as a Back-Cover Text, to the
+    end of the list of Cover Texts in the Modified Version.  Only one
+    passage of Front-Cover Text and one of Back-Cover Text may be
+    added by (or through arrangements made by) any one entity.  If the
+    Document already includes a cover text for the same cover,
+    previously added by you or by arrangement made by the same entity
+    you are acting on behalf of, you may not add another; but you may
+    replace the old one, on explicit permission from the previous
+    publisher that added the old one.</p><p>The author(s) and publisher(s) of the Document do not by
+    this License give permission to use their names for publicity for
+    or to assert or imply endorsement of any Modified Version.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN665">5. COMBINING DOCUMENTS</a></h1><p>You may combine the Document with other documents released
+    under this License, under the terms defined in section 4 above for
+    modified versions, provided that you include in the combination
+    all of the Invariant Sections of all of the original documents,
+    unmodified, and list them all as Invariant Sections of your
+    combined work in its license notice.</p><p>The combined work need only contain one copy of this
+    License, and multiple identical Invariant Sections may be replaced
+    with a single copy.  If there are multiple Invariant Sections with
+    the same name but different contents, make the title of each such
+    section unique by adding at the end of it, in parentheses, the
+    name of the original author or publisher of that section if known,
+    or else a unique number.  Make the same adjustment to the section
+    titles in the list of Invariant Sections in the license notice of
+    the combined work.</p><p>In the combination, you must combine any sections entitled
+    "History" in the various original documents, forming one section
+    entitled "History"; likewise combine any sections entitled
+    "Acknowledgements", and any sections entitled "Dedications".  You
+    must delete all sections entitled "Endorsements."</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN670">6. COLLECTIONS OF DOCUMENTS</a></h1><p>You may make a collection consisting of the Document and
+    other documents released under this License, and replace the
+    individual copies of this License in the various documents with a
+    single copy that is included in the collection, provided that you
+    follow the rules of this License for verbatim copying of each of
+    the documents in all other respects.</p><p>You may extract a single document from such a collection,
+    and distribute it individually under this License, provided you
+    insert a copy of this License into the extracted document, and
+    follow this License in all other respects regarding verbatim
+    copying of that document.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN674">7. AGGREGATION WITH INDEPENDENT WORKS</a></h1><p>A compilation of the Document or its derivatives with other
+    separate and independent documents or works, in or on a volume of
+    a storage or distribution medium, does not as a whole count as a
+    Modified Version of the Document, provided no compilation
+    copyright is claimed for the compilation.  Such a compilation is
+    called an "aggregate", and this License does not apply to the
+    other self-contained works thus compiled with the Document, on
+    account of their being thus compiled, if they are not themselves
+    derivative works of the Document.</p><p>If the Cover Text requirement of section 3 is applicable to
+    these copies of the Document, then if the Document is less than
+    one quarter of the entire aggregate, the Document's Cover Texts
+    may be placed on covers that surround only the Document within the
+    aggregate.  Otherwise they must appear on covers around the whole
+    aggregate.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN678">8. TRANSLATION</a></h1><p>Translation is considered a kind of modification, so you may
+    distribute translations of the Document under the terms of section
+    4.  Replacing Invariant Sections with translations requires
+    special permission from their copyright holders, but you may
+    include translations of some or all Invariant Sections in addition
+    to the original versions of these Invariant Sections.  You may
+    include a translation of this License provided that you also
+    include the original English version of this License.  In case of
+    a disagreement between the translation and the original English
+    version of this License, the original English version will
+    prevail.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN681">9. TERMINATION</a></h1><p>You may not copy, modify, sublicense, or distribute the
+    Document except as expressly provided for under this License.  Any
+    other attempt to copy, modify, sublicense or distribute the
+    Document is void, and will automatically terminate your rights
+    under this License.  However, parties who have received copies, or
+    rights, from you under this License will not have their licenses
+    terminated so long as such parties remain in full
+    compliance.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN684">10. FUTURE REVISIONS OF THIS LICENSE</a></h1><p>The Free Software Foundation may publish new, revised
+    versions of the GNU Free Documentation License from time to time.
+    Such new versions will be similar in spirit to the present
+    version, but may differ in detail to address new problems or
+    concerns.  See <a href="http://www.gnu.org/copyleft/" target="_top">http://www.gnu.org/copyleft/</a>.</p><p>Each version of the License is given a distinguishing
+    version number.  If the Document specifies that a particular
+    numbered version of this License "or any later version" applies to
+    it, you have the option of following the terms and conditions
+    either of that specified version or of any later version that has
+    been published (not as a draft) by the Free Software Foundation.
+    If the Document does not specify a version number of this License,
+    you may choose any version ever published (not as a draft) by the
+    Free Software Foundation.</p></div><div class="SECT1"><hr><h1 class="SECT1"><a name="AEN689">How to use this License for your documents</a></h1><p>To use this License in a document you have written, include
+    a copy of the License in the document and put the following
+    copyright and license notices just after the title page:</p><blockquote class="BLOCKQUOTE"><p>      Copyright (c)  YEAR  YOUR NAME.
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.1
+      or any later version published by the Free Software Foundation;
+      with the Invariant Sections being LIST THEIR TITLES, with the
+      Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.
+      A copy of the license is included in the section entitled "GNU
+      Free Documentation License".</p></blockquote><p>If you have no Invariant Sections, write "with no Invariant
+    Sections" instead of saying which ones are invariant.  If you have
+    no Front-Cover Texts, write "no Front-Cover Texts" instead of
+    "Front-Cover Texts being LIST"; likewise for Back-Cover
+    Texts.</p><p>If your document contains nontrivial examples of program
+    code, we recommend releasing these examples in parallel under your
+    choice of free software license, such as the GNU General Public
+    License, to permit their use in free software.</p></div></div></div><h3 class="FOOTNOTES">Notes</h3><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><table border="0" class="FOOTNOTES" width="100%"><tbody><tr><td align="LEFT" valign="TOP" width="5%"><a name="FTN.AEN34" href="https://www.gnupg.org/gph/en/manual.html#AEN34">[1]</a></td><td align="LEFT" valign="TOP" width="95%"><p>Option 3 is to generate an ElGamal keypair that is
+not usable for making signatures.</p></td></tr><tr><td align="LEFT" valign="TOP" width="5%"><a name="FTN.AEN77" href="https://www.gnupg.org/gph/en/manual.html#AEN77">[2]</a></td><td align="LEFT" valign="TOP" width="95%"><p>Many
+command-line options that are frequently used can also be set in a
+configuration file.</p></td></tr><tr><td align="LEFT" valign="TOP" width="5%"><a name="FTN.AEN230" href="https://www.gnupg.org/gph/en/manual.html#AEN230">[3]</a></td><td align="LEFT" valign="TOP" width="95%"><p>The cipher must have the property that the actual public key or private
+key could be used by the encryption algorithm as the public key.
+RSA is an example of such an algorithm while ElGamal is not an example.</p></td></tr><tr><td align="LEFT" valign="TOP" width="5%"><a name="FTN.AEN378" href="https://www.gnupg.org/gph/en/manual.html#AEN378">[4]</a></td><td align="LEFT" valign="TOP" width="95%"><p>GnuPG overloads the word ``trust'' by using it to mean
+trust in an owner and trust in a key.
+This can be confusing.
+Sometimes trust in an owner is referred to as
+<i class="FIRSTTERM">owner-trust</i> to
+distinguish it from trust in a key.
+Throughout this manual, however, ``trust'' is used to
+mean trust in a key's
+owner, and ``validity'' is used to mean trust that a key
+belongs to the human associated with the key ID.</p></td></tr><tr><td align="LEFT" valign="TOP" width="5%"><a name="FTN.AEN557" href="https://www.gnupg.org/gph/en/manual.html#AEN557">[5]</a></td><td align="LEFT" valign="TOP" width="95%"><p>In this section, GnuPG refers to the 
+GnuPG implementation of OpenPGP as well as other implementations 
+such as NAI's PGP product.</p></td></tr></tbody></table><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://translate.googleapis.com/translate_static/css/translateelement.css
+
+@charset "utf-8";
+
+.goog-te-banner-frame { left: 0px; top: 0px; height: 39px; width: 100%; z-index: 10000001; position: fixed; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid rgb(107, 144, 218); margin: 0px; box-shadow: rgb(153, 153, 153) 0px 0px 8px 1px; }
+
+.goog-te-menu-frame { z-index: 10000002; position: fixed; border: none; box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; }
+
+.goog-te-ftab-frame { z-index: 10000000; border: none; margin: 0px; }
+
+.goog-te-gadget { font-family: arial; font-size: 11px; color: rgb(102, 102, 102); white-space: nowrap; }
+
+.goog-te-gadget img { vertical-align: middle; border: none; }
+
+.goog-te-gadget-simple { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(155, 155, 155) rgb(213, 213, 213) rgb(232, 232, 232); font-size: 10pt; display: inline-block; padding-top: 1px; padding-bottom: 2px; cursor: pointer; zoom: 1; }
+
+.goog-te-gadget-icon { margin-left: 2px; margin-right: 2px; width: 19px; height: 19px; border: none; vertical-align: middle; }
+
+.goog-te-combo { margin-left: 4px; margin-right: 4px; vertical-align: baseline; }
+
+.goog-te-gadget .goog-te-combo { margin: 4px 0px; }
+
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active { font-size: 12px; font-weight: bold; color: rgb(68, 68, 68); text-decoration: none; }
+
+.goog-te-banner .goog-logo-link, .goog-close-link { display: block; margin: 0px 10px; }
+
+.goog-te-banner .goog-logo-link { padding-top: 2px; padding-left: 4px; }
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * { font-family: arial; font-size: 10pt; }
+
+.goog-te-banner { margin: 0px; background-color: rgb(228, 239, 251); overflow: hidden; }
+
+.goog-te-banner img { border: none; }
+
+.goog-te-banner-content { color: rgb(0, 0, 0); }
+
+.goog-te-banner-content img { vertical-align: middle; }
+
+.goog-te-banner-info { color: rgb(102, 102, 102); vertical-align: top; margin-top: 0px; font-size: 7pt; }
+
+.goog-te-banner-margin { width: 8px; }
+
+.goog-te-button { border-color: rgb(231, 231, 231); border-style: none solid solid none; border-width: 0px 1px 1px 0px; }
+
+.goog-te-button div { border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); border-style: solid; border-width: 1px; height: 20px; }
+
+.goog-te-button button { background: transparent; border: none; cursor: pointer; height: 20px; overflow: hidden; margin: 0px; vertical-align: top; white-space: nowrap; }
+
+.goog-te-button button:active { background: none 0px 0px repeat scroll rgb(204, 204, 204); }
+
+.goog-te-ftab { margin: 0px; background-color: rgb(255, 255, 255); white-space: nowrap; }
+
+.goog-te-ftab-link { text-decoration: none; font-weight: bold; font-size: 10pt; border: 1px outset rgb(136, 136, 136); padding: 6px 10px; white-space: nowrap; position: absolute; left: 0px; top: 0px; }
+
+.goog-te-ftab-link img { margin-left: 2px; margin-right: 2px; width: 19px; height: 19px; border: none; vertical-align: middle; }
+
+.goog-te-ftab-link span { text-decoration: underline; margin-left: 2px; margin-right: 2px; vertical-align: middle; }
+
+.goog-float-top .goog-te-ftab-link { padding: 2px; border-top-width: 0px; }
+
+.goog-float-bottom .goog-te-ftab-link { padding: 2px; border-bottom-width: 0px; }
+
+.goog-te-menu-value { text-decoration: none; color: rgb(0, 0, 204); white-space: nowrap; margin-left: 4px; margin-right: 4px; }
+
+.goog-te-menu-value span { text-decoration: underline; }
+
+.goog-te-menu-value img { margin-left: 2px; margin-right: 2px; }
+
+.goog-te-gadget-simple .goog-te-menu-value { color: rgb(0, 0, 0); }
+
+.goog-te-gadget-simple .goog-te-menu-value span { text-decoration: none; }
+
+.goog-te-menu { background-color: rgb(255, 255, 255); text-decoration: none; border: 2px solid rgb(195, 217, 255); overflow: hidden scroll; position: absolute; left: 0px; top: 0px; }
+
+.goog-te-menu-item { padding: 3px; text-decoration: none; }
+
+.goog-te-menu-item, .goog-te-menu-item:link { color: rgb(0, 0, 204); background: rgb(255, 255, 255); }
+
+.goog-te-menu-item:visited { color: rgb(85, 26, 139); }
+
+.goog-te-menu-item:hover { background: rgb(195, 217, 255); }
+
+.goog-te-menu-item:active { color: rgb(0, 0, 204); }
+
+.goog-te-menu2 { background-color: rgb(255, 255, 255); text-decoration: none; border: 1px solid rgb(107, 144, 218); overflow: hidden; padding: 4px; }
+
+.goog-te-menu2-colpad { width: 16px; }
+
+.goog-te-menu2-separator { margin: 6px 0px; height: 1px; background-color: rgb(170, 170, 170); overflow: hidden; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item-selected div { padding: 4px; }
+
+.goog-te-menu2-item .indicator { display: none; }
+
+.goog-te-menu2-item-selected .indicator { }
+
+.goog-te-menu2-item-selected .text { padding-left: 4px; padding-right: 4px; }
+
+.goog-te-menu2-item, .goog-te-menu2-item-selected { text-decoration: none; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div { color: rgb(0, 0, 204); background: rgb(255, 255, 255); }
+
+.goog-te-menu2-item:hover div { color: rgb(255, 255, 255); background: rgb(51, 102, 204); }
+
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .goog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover div, .goog-te-menu2-item-selected:active div { color: rgb(0, 0, 0); font-weight: bold; }
+
+.goog-te-balloon { background-color: rgb(255, 255, 255); overflow: hidden; padding: 8px; border: none; border-radius: 10px; }
+
+.goog-te-balloon-frame { background-color: rgb(255, 255, 255); border: 1px solid rgb(107, 144, 218); box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; border-radius: 8px; }
+
+.goog-te-balloon img { border: none; }
+
+.goog-te-balloon-text { margin-top: 6px; }
+
+.goog-te-balloon-zippy { margin-top: 6px; white-space: nowrap; }
+
+.goog-te-balloon-zippy * { vertical-align: middle; }
+
+.goog-te-balloon-zippy .minus { background-image: url("//www.google.com/images/zippy_minus_sm.gif"); }
+
+.goog-te-balloon-zippy .plus { background-image: url("//www.google.com/images/zippy_plus_sm.gif"); }
+
+.goog-te-balloon-zippy span { color: rgb(0, 0, 204); text-decoration: underline; cursor: pointer; margin: 0px 4px; }
+
+.goog-te-balloon-form { margin: 6px 0px 0px; }
+
+.goog-te-balloon-form form { margin: 0px; }
+
+.goog-te-balloon-form form textarea { margin-bottom: 4px; width: 100%; }
+
+.goog-te-balloon-footer { margin: 6px 0px 4px; }
+
+.goog-te-spinner-pos { z-index: 1000; position: fixed; transition-delay: 0.6s; left: -1000px; top: -1000px; }
+
+.goog-te-spinner-animation { display: flex; align-items: center; justify-content: center; width: 104px; height: 104px; border-radius: 50px; background: url("//www.gstatic.com/images/branding/product/2x/translate_24dp.png") 50% 50% no-repeat rgb(255, 255, 255); transition: all 0.6s ease-in-out 0s; transform: scale(0.4); opacity: 0; }
+
+.goog-te-spinner-animation-show { transform: scale(0.5); opacity: 1; }
+
+.goog-te-spinner { margin: 2px 0px 0px 2px; animation: 1.4s linear 0s infinite normal none running goog-te-spinner-rotator; }
+
+@keyframes goog-te-spinner-rotator { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.goog-te-spinner-path { stroke-dasharray: 187; stroke-dashoffset: 0; stroke: rgb(66, 133, 244); transform-origin: center center; animation: 1.4s ease-in-out 0s infinite normal none running goog-te-spinner-dash; }
+
+@keyframes goog-te-spinner-dash { 
+  0% { stroke-dashoffset: 187; }
+  50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goog-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table, #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td { margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; vertical-align: baseline; text-align: left; line-height: normal; }
+
+#goog-gt-tt ol, #goog-gt-tt ul { list-style: none; }
+
+#goog-gt-tt table { border-collapse: collapse; border-spacing: 0px; }
+
+#goog-gt-tt caption, #goog-gt-tt th, #goog-gt-tt td { text-align: left; font-weight: normal; }
+
+div#goog-gt-tt { padding: 10px 14px; }
+
+#goog-gt-tt { color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); border: 1px solid rgb(238, 238, 238); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; display: none; font-family: arial; font-size: 10pt; width: 420px; padding: 12px; position: absolute; z-index: 10000; }
+
+#goog-gt-tt .original-text, .gt-hl-layer { clear: both; font-size: 10pt; position: relative; text-align: justify; width: 100%; }
+
+#goog-gt-tt .title { color: rgb(153, 153, 153); font-family: arial, sans-serif; margin: 4px 0px; text-align: left; }
+
+#goog-gt-tt .close-button { display: none; }
+
+#goog-gt-tt .logo { float: left; margin: 0px; }
+
+#goog-gt-tt .activity-links { display: inline-block; }
+
+#goog-gt-tt .started-activity-container { display: none; width: 100%; }
+
+#goog-gt-tt .activity-root { margin-top: 20px; }
+
+#goog-gt-tt .left { float: left; }
+
+#goog-gt-tt .right { float: right; }
+
+#goog-gt-tt .bottom { min-height: 15px; position: relative; height: 1%; }
+
+#goog-gt-tt .status-message { background: rgb(41, 145, 13); border-radius: 4px; box-shadow: rgb(30, 102, 9) 0px 2px 2px inset; color: white; font-size: 9pt; font-weight: bolder; margin-top: 12px; padding: 6px; text-shadow: rgb(30, 102, 9) 1px 1px 1px; }
+
+#goog-gt-tt .activity-link { color: rgb(17, 85, 204); cursor: pointer; font-family: arial; font-size: 11px; margin-right: 15px; text-decoration: none; }
+
+#goog-gt-tt textarea { font-family: arial; resize: vertical; width: 100%; margin-bottom: 10px; border-radius: 1px; border-width: 1px; border-style: solid; border-color: silver rgb(217, 217, 217) rgb(217, 217, 217); border-image: initial; font-size: 13px; height: auto; overflow-y: auto; padding: 1px; }
+
+#goog-gt-tt textarea:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset; border: 1px solid rgb(77, 144, 254); outline: none; }
+
+#goog-gt-tt .activity-cancel { margin-right: 10px; }
+
+#goog-gt-tt .translate-form { min-height: 25px; vertical-align: middle; padding-top: 8px; }
+
+#goog-gt-tt .translate-form .activity-form { margin-bottom: 0px; }
+
+#goog-gt-tt .translate-form .activity-form input { display: inline-block; min-width: 54px; border: 1px solid rgba(0, 0, 0, 0.1); text-align: center; color: rgb(68, 68, 68); font-size: 11px; font-weight: bold; height: 27px; outline: 0px; padding: 0px 8px; vertical-align: middle; line-height: 27px; margin: 0px 16px 0px 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; border-radius: 2px; transition: all 0.218s ease 0s; background-color: rgb(245, 245, 245); background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)); user-select: none; cursor: default; }
+
+#goog-gt-tt .translate-form .activity-form input:hover { border: 1px solid rgb(198, 198, 198); color: rgb(34, 34, 34); transition: all 0s ease 0s; background-color: rgb(248, 248, 248); background-image: -webkit-linear-gradient(top, rgb(248, 248, 248), rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:active { border: 1px solid rgb(198, 198, 198); color: rgb(51, 51, 51); background-color: rgb(246, 246, 246); background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus { outline: none; border: 1px solid rgb(77, 144, 254); z-index: 4 !important; }
+
+#goog-gt-tt .translate-form .activity-form input.selected { background-color: rgb(238, 238, 238); background-image: -webkit-linear-gradient(top, rgb(238, 238, 238), rgb(224, 224, 224)); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit { color: white; border-color: rgb(48, 121, 237); background-color: rgb(77, 144, 254); background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt .translate-form .activity-form input.activity-submit:active { border-color: rgb(48, 121, 237); background-color: rgb(53, 122, 232); background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(53, 122, 232)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover { box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.1) 0px 1px 1px; }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus, #goog-gt-tt .translate-form .activity-form input:active, #goog-gt-tt .translate-form .activity-form input:hover, #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus, #goog-gt-tt .translate-form .activity-form input.activity-submit:active, #goog-gt-tt .translate-form .activity-form input.activity-submit:hover { border-color: rgb(48, 121, 237); }
+
+#goog-gt-tt .gray { color: rgb(153, 153, 153); font-family: arial, sans-serif; }
+
+#goog-gt-tt .alt-helper-text { color: rgb(153, 153, 153); font-size: 11px; font-family: arial, sans-serif; margin: 15px 0px 5px; }
+
+#goog-gt-tt .alt-error-text { color: rgb(136, 0, 0); display: none; font-size: 9pt; }
+
+.goog-text-highlight { background-color: rgb(201, 215, 241); box-shadow: rgb(153, 153, 170) 2px 2px 4px; box-sizing: border-box; position: relative; }
+
+#goog-gt-tt .alt-menu.goog-menu { background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); box-shadow: rgb(153, 153, 170) 0px 2px 4px; min-width: 0px; outline: none; padding: 0px; position: absolute; z-index: 2000; }
+
+#goog-gt-tt .alt-menu .goog-menuitem { cursor: pointer; padding: 2px 5px 5px; margin-right: 0px; border-style: none; }
+
+#goog-gt-tt .alt-menu div.goog-menuitem:hover { background: rgb(221, 221, 221); }
+
+#goog-gt-tt .alt-menu .goog-menuitem h1 { font-size: 100%; font-weight: bold; margin: 4px 0px; }
+
+#goog-gt-tt .alt-menu .goog-menuitem strong { color: rgb(52, 90, 173); }
+
+#goog-gt-tt .goog-submenu-arrow { text-align: right; position: absolute; right: 0px; left: auto; }
+
+#goog-gt-tt .goog-menuitem-rtl .goog-submenu-arrow { text-align: left; position: absolute; left: 0px; right: auto; }
+
+#goog-gt-tt .gt-hl-text, #goog-gt-tt .trans-target-highlight { background-color: rgb(241, 234, 0); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; color: rgb(241, 234, 0); cursor: pointer; margin: -2px -2px -2px -3px; padding: 2px 2px 2px 3px; position: relative; }
+
+#goog-gt-tt .trans-target-highlight { color: rgb(34, 34, 34); }
+
+#goog-gt-tt .gt-hl-layer { color: white; position: absolute !important; }
+
+#goog-gt-tt .trans-target, #goog-gt-tt .trans-target .trans-target-highlight { background-color: rgb(201, 215, 241); border-radius: 4px 4px 0px 0px; box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; cursor: pointer; margin: -2px -2px -2px -3px; padding: 2px 2px 3px 3px; position: relative; }
+
+#goog-gt-tt span:focus { outline: none; }
+
+#goog-gt-tt .trans-edit { background-color: transparent; border: 1px solid rgb(77, 144, 254); border-radius: 0em; margin: -2px; padding: 1px; }
+
+#goog-gt-tt .gt-trans-highlight-l { border-left: 2px solid red; margin-left: -2px; }
+
+#goog-gt-tt .gt-trans-highlight-r { border-right: 2px solid red; margin-right: -2px; }
+
+#goog-gt-tt #alt-input { padding: 2px; }
+
+#goog-gt-tt #alt-input-text { font-size: 11px; padding: 2px 2px 3px; margin: 0px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); border-width: 1px; border-style: solid; border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217); border-image: initial; display: inline-block; vertical-align: top; height: 21px; box-sizing: border-box; border-radius: 1px; }
+
+#goog-gt-tt #alt-input-text:hover { border-width: 1px; border-style: solid; border-color: rgb(160, 160, 160) rgb(185, 185, 185) rgb(185, 185, 185); border-image: initial; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; }
+
+#goog-gt-tt #alt-input-text:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset; outline: none; border: 1px solid rgb(77, 144, 254); }
+
+#goog-gt-tt #alt-input-submit { font-size: 11px; padding: 2px 6px 3px; margin: 0px 0px 0px 2px; height: 21px; }
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gstatic.com/images/branding/product/2x/translate_24dp.png
+
+‰PNG
+
+   IHDR   0   0   Wù‡  ùIDATxí˜UwÛX€µÏËð–¡Ìíb™Ÿ–·ÜpbˆSfffæ6Œ¶Ì3oÃ¯wvFÎ(ŠÖr”uðœÍ9_|íÒ÷Is%¥ÒDùúÿ ÞXz cî¢½žù;û„žy;˜ÛÏ&#Ìlë÷¶¾…H£ºX¼·sþ‚]}‚‰5`aZÛDmÞììukåc˜iï|„H£º I#yB•70Ëß_Eï"Òh¢.Xtä¤º9ˆ4š¨þø0:yÂÞù‘Fua^Þ| Ñ¸ŒKËGb&2;©z"êB/l$Ïs3ú@ËG˜ÙZÒû`åþpºÊEUUƒhni­­aZZZTš››ššš"ÒØØHÐZ®®®Ÿ†HŒºŽ<¡—g´òÌµ‡U¡ 	ÿ÷ ¦²²f"/Œ¥Gg¨£Ï$Ÿ®‚Ü<YTU×“pÌõõND"$^Ì5!¾ø@Ÿ8ù¢äŠNhjë€fÄ]Ù	§ð³Åû"ËÏB–íi‡Ì,§å€¨ohŒ5€‘‰FâLòõÑØÚ¯;"C¿¶íbOÄ â*ŽQa‘G!’ù ’4‚ä_¿­lè„Ç®N¸]Ð¡šðgôºòPoDù™ö1r{¢´´ŒÄXž1’! çü§ý}ê‘oÿ»Ž=ëÖ^6i{î÷ÀÒý‘å9`iÿ¹\~†Dyy9	Ž` ÉDàäón>òÊ¬ë¯÷Ú¹7:úÌÕá1òûƒt(‚D†=>„DH¼0
+ KòMxæí,Ï˜‘Ÿ$Â1Ê¥1ò‹P¨T”•©±°˜§€Ü@'èÅ6ôƒâ®ˆKvãeÒùD°?€XµÍ
+k“2À„|l$m&à‰³K/Ï¨cäóÑ…Vn³ÀÊíV ±`IíÍÝÉÏ8al·zTö=Ø+Wrºþ%?Ý†Xû`ÞÖg°ø,Û„Ò[­¾nc¬°:!Ö$î@2å3|ä ÖsB³‰é&Æò*éaŽ<ø})×zXžQä‰™)5ðãïXº1°bkš°Vn·¡°C#cÀû.£mx=ò´[ÌÊ,Ÿr£G´¶‡OMSÌÏèeñ06#+Ü8FneŒ´›¹¢¢B!ýø%âÎ³,ýø	WßÈ*èFæì„›x#óVvªŸÓïI¸Òc(Ï‰x5ÊÉu	ÙíÁ`hP€Ûë«ãì°&>Êð½üð8¢±…D#CgÀv«{Hybñ®vˆË8K7X`ç©‹ÀÄ.|Ozç‰‹PYYI¢æx¢AãtüY7¸Ê;•MÝÜÖ	<ç3»aé^aFž˜fí…S7
+Å²VX¶Ù
+™¹ùŠü«Ü±
+÷ "§,( ªªŠ…c˜…éöÌÈ‰'+Áqø"ž…4ø%m7”È²øÕ²GÙÌG.ß'
+àˆúúúè3ŒEM‰3Fâ,Ïü´³^¾*¬aù–4X—+P~ƒã ”âHq€q„. ibZ?fä§öså¾[<}™'–oáË©Š²2N@¯P]]ÍÆÆÂÆâz¢Ë34FU´ëÞÒp/¤Ár¼©í:y	8€ÑÔÔÔD0–4!ÍØÂhÄäK/Ì±4À÷¿¦ÂªÍ6¸pç‘Xï€±ãäEŠ0¨­­%$Bâ…yicqÆŒ<1%­~Øpî>|¥<b¿Ì)kq/,ß†'.À°ŒÍ‹SûÑˆÊ@vŽK}ÄÎÌ+ëÊ8í8®œ	m C€Í˜©:†’ÿ†pý^^õ?bÂweŒ(P"èÙÈ~ìp a0ÃÖë2–4/NL±öŠHâË3—ïÉ¢ PôˆÕqüÊ:ú1"$BâÅlKûìX¤Y\K$ù):(&Ay6R~à×?Ü1Ñ˜©ñÕó¦¦¾öMµt
+-S†à›´ó52%µ´|£ãë”…ÍÊ>pÉ´Ê´ü=`´Ø’ø4î³¹7áSŸÌ¹¡òéœ›°9ù	äåãp>Ä¸ÄÙŸôÅ‚; åóùƒÙžúró\¢¸Ä+üe3ã@¬ýãEË—‹îÃzÞ‡xÛKÈ/EÊ{<ü³AÔ Ž $‚¾*IŽ¬ Âòö(ïÅÅý—#ŽO¯B¥FÌØ8>ÐŠqÖç8óayYö	Ÿ?€G?-€û bÍo/ZX>Þög¾D¹y¯ÏG?z ¯9 ´¼BF$‚¾:É¶œ?”#ò9¹Å¢oZN§G‘÷û£ð{mÀ«ì’ùˆDÐ·Q'Ç(Îò2³òENN‘(((N]6Ý
+Æx½ÂçóqAkm ý^ï£§9‰áÅdeòü_ùˆÈ5¿A    IEND®B`‚
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gnupg.org/gph/en/signatures.jpg
+
+ÿØÿà JFIF  P P  ÿÛ C 		
+ $.' ",#(7),01444'9=82<.342ÿÛ C			2!!22222222222222222222222222222222222222222222222222ÿÀ  |Æ" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑð$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RðbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ÷ú(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(®?Ä_|á2;íj	n“ÌÖÐùÒoN¨Bä#gœ¯9çƒ€ÂŠ¯auöí:ÚóìóÛùñ$¾MÂl’=À®½˜gv5ã~ Ö¥·ÖüLºN±·jh–±ÿ ÂE3\FJBdXl‹ˆç*í.#,`Si ) öÊ+ƒÒµo
+éÿ õÛ{]CF¶žîÞÑ8¦‰k¯:è8 ´¹d}îFzŠåÇÄYÄ9´oRÓ_A¼½½²xn¥aió#Áe/ *äÃß»\® =’Šñÿ ‡ú‘±]CNÓµhÞÒ[Ãáý¡Q¨À%¸*þsîfË«(ÚFÑf6MxûW»ñ‘¦jrý¢ãRó…ìËi°•Q¤TŽ¦
+º7ód)Êœ© õŠ(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
++Ÿñg4/iËy­]ù^ná(¥ä™”d…Qøœ($dŒŠâÓ@ñ_ÄÇIüZ²h>ß‹ ÄÁ¥ºwfiFFâ>\òýÕe@#ñWŒŸÇ°j>ð5—ö³MŠûSóÚk0_oÞ2d8RCÀnZÏø[ðSþ½Eµ¯.5%aeg|qí8ÝŽ2£øF	ù¸O\Ò´«K·Ó4Ëhí¬íÓdQ'EÌ’rI<’I9&®PEPEPEP~·¢iÞ#ÑçÒuk´XÏ·Ì‹{&í¬r¤Èƒ^~úŽ~D© øJ¼5oT°º%õºª¹!(¹Û†laF3^¡E sþñ¦…âŸ2-:ïmô9
+b¹†7Œóò–
+HÊçŒšè+“ñGÃý#Än÷ðùš^¼„½‹§Š…Ë#xÚá¿„
+ç5Ïx¯ÀEÇŽ¡SÐÃªG®éÑ Ñ–öˆ†6¸å…ùÙ¨Ó(ªzV«c®ivúž™sÍÂoŠTèÃù‚AAUÊ (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š +—ñ/Ž¬<)«iöZ••÷“{‚/cXÌ1#f•‹‚Š¦HòÄcç$ñ]Eyÿ ‹þêÚíÕü	ö=,mÇ‘6`'™¹¶Î«/ÌIÃ.XÏ;Nà£QÕ¯,5í&ÏìPIc¨JÖÿ hûIG ŠYÕìÁ\EŒï-ÓŽdäâQ¢*È'ï;!•
+c#Øã÷ƒv*p0rvãÜøÄ×#Dwñš÷c™ši4–>|¾\±n!gP ¤½ñ‚Ú$»ÐüI>¹kªÅ­éQÉmhöÊ¥HÀùžSHÇý  ØÇš “Zñï†ü?qu£"=šF÷F+Y¦[q!Ây0BÝƒNG¨«–¾)Ñ¯µ‰ô»kÏ2êZ"'òüÕ]Í“@¼”X Ù)Æ>³àýFú}ilõk±ÕöI=®¡¥­âÇ2¢ ‘2ê:GÚáÀdÏr+?„ÐÚ]iñXê^^•§êßZÚÍö™Z"²ù…W7PÎYAò²¹ÜÙbéæz¯ÄkïÞÜh?-cÔï6ÜêÎÛmlI}¡¾a‰N0ÆA Ñ/ìmõ=:æÂò?2Öê'†dÜFä`CŽFA=+ËôKë„ZŒ×$ó<%u+'WeìÎÄ±†àŽI$?ÔôÈŒ¤ð¯Ã›T—^Ôî¤Ö¼K;»Kª\.Ò`mHòU PŽpH)Ú;J( Š( Š( Š( Š( Š( Š( ø§ðãQ´ŠKÏ é·Öëy.©m¦Ý,<h¤äfF”ü¤¹5sá‡Ä½I.-|#ã¨.ìuvAö›èš&º\ªû€;òüxÁù¾÷²WüTøÃ¢é)yáË>ÓZ¿WE¸K¸„¶‘Ù*Ã9wG€O'*V€=’±õŸ&‘yceŸ}¨_^ù†+{4RB Ý™ÙQTAË—P¬‡šN©o¡¦³â+™î<CªEÝ´¿(‰&8–=ª#Ú– }ö|“ÅjkZ-õî©§jš^§åšM	ÛyñM›K+(e`CG}Ò Ð>›ñÒæöhu=>ïGO³Ås
+^Fþx‰žTwš0§ÉEh²\±@®„²îÅnj:µå†½¤ÙýŠ	,u	Zßíi"HäK/ú½˜+ˆ±àåºqÏ7ÿ Oˆî,5˜5/Z^ÏªiƒN{–Ò|¶U!…”);f‘x¢pCljú&½¨Ýikl§¿žCé¯ ’c‘1âuÚ…e$/$>cÒ€$Ô¼máÝ#QšÆûPòæƒÊûCdxí¼ÓˆüÙJE¸ôÞG=jÄ¾)Ñ¡×F{ÏôäòÄª±;$&LˆÖI ØŒÄaUˆ-‘€r3‡¨ø3W¿¬â8à³Ö’!©D– ±aÅ)‹þì<h«‡mÆAÍeøƒá4:¯ö¼6:—Ù,õiZææ	¾Ó*‰Û‘U.3Ê« èØnûpªéQYz—†´fán5MM¾P"Éuj’°\“€XŒ’qîhRŠçÿ áðý
+šþ¡ÿ âhÿ „Áÿ ô*hø.‡ÿ ‰ ‚¹{ïˆ¾Ó<G&­Ái©Gé:¼h¹@ã2°eHþ.øëÅXÿ „Áÿ ô*hø.‡ÿ ‰®Vøá½gÄz†§5Ôöv·_Ùì´Ø£ Ú[ª°mÄg€¸Éëš õû=NÎ;Ë¸.ídÎÉ H‚AÃ#ðªzö´4îÚÂîô=ÄVâ;SàÒ8D'{¨ÁfUëü@ôÉú€<)áwYt}Ò	ÕË¬ì²¡+´í‘É`1ÆÇ'ÔÕh3x“DlW£\C,¢êÐÜ$‹‰6Þ¼U$ñ‘Žr 1æñäóxkQÖ´Í
+I ±·7L÷W‘,SÄ›¼©`3+:˜ˆ*qŒŒ‘ÆzMc[Ó´4ºÔ®<˜ä• Œ*4,Œp¨ˆ ³±ôPOô¹5ð&«‡õ]ßYÓmm/íÍ°‚2E‚ÝÌÒ˜ã7Í7\àQ·ÅÍgÁ—^!ŠÆëRÔàÎ,gwgöÈˆêÑ•'Þrr²/Eí¸0„Þ6ðì2Û@u÷W14ÑZÅ’NÊ­±‡”ª\0mÀ©†ÇÈù5èÚdVMyæÿ häÙ¥¤Or÷ .òÈ‘fP¼–#žErþø{©øsX›P¶Öì[ÍûS˜ÚÂgýäëæ,÷,ÍóÛ£’N\ddWøgs¬xWDÐçÖ-4Ë)ló-ƒ´nYqÌ# %D†bÀ$Æ =	áº·ŠâÞXæ‚T‘°eu# ‚8 ŽsRV_†ô©´?iºL÷1Ý=•º[‰’#uAµNÒÍƒ´óÉÉã ±©i:n³n¶ú¦Ÿi}¸uŽê•C`Œ€ÀŒà‘Ÿs@+?[ÖôïhóêÚµÇÙì`ÛæK±Ÿnæ
+8PIäÀ¬ÿ øA<ÿ B¦‡ÿ ‚èøšÇñOÂÏëÞ»Ó,4­+Iº›fËØ4è÷Å‡V8ÆÓÈuhcDñÏ…¼Gä.“¯XÜM>ï.ßÍ	3mÎtØqÀ'‘Óž•ÐW™èŸ<£Üyó[]ên10eB§?u†Œ†>¹ôK=2Î;;H--cÎÈ`ŒF‹’IÂŽI'ñ ;ßÉmu©ÃkáÍgPM5ÂO- €‚ÞRK…V•]ŽÙ€¼žjå¯Štkíb}.ÚóÌº†VÈ‰ü¿5WsD$ÆÆ/% 6GÊqÏëÞÔõ-OQºÓ|M>þ$hÔL3yk‘¢ÎV8þY€T‘€ÄøþCiu§Åc©yzVŸ¨G}kk7ÚehŠËæ\ÜyC9eÊÈVçseˆQÿ 	·‡¶?²ÿ ´?Ò>×öþLžOÚ6îò|í¾_™áÝœñŒñYúOnµ¿O¦Yhsÿ gÛËåÍy:Ï òVMÆ9!UûÎ©·~þwmÛÍð†ê?jû?öÿ üI?µµ>Éö5ó·y¾•çnÇ—ç|ÿ sv>]Ø­FÖ4ÍOSº¿Õ,nã¿”\<pX<dÇÃŸåÛãÉÎqÅ gé>5ºÖüU>™e¡ÏýŸo/—5äë<ƒÉY7ä…Wï:¦ÝûùÝ·o5ØW? èÚÆ™©êwWú¥Üwò‹‡Ž€¬‚8ãc3ü»bc99Î8®‚€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+§ªéV:æ—q¦jvÑÜÙÜ&Éb~Œ?˜ à‚90E\¢€<¯JÕo¾ê–þñÌ—>¸/HÖeëj{[Îz Ýn€ÊÕ*ž«¥Xëš]Æ™©ÛGsgp›%‰ú0þ`ƒ‚äÁæúV«}ð¯T·ðçˆîd¹ð­ÃùzF³/[SÚÞsÐ >ët vPD`©EPEPEPEPEPE‡â_Ãáëx-ä¾Õ/\Åa§B@’æLdòxTQË9áG'° ‰|K‡­àD·’ûT½s†	K™1“ÉáQG,ç…žÀòö_
+lnüAeâ¿\IwâD¸sµ³yvåÀQ*ã;#Ø»NAb	lƒ´tðÔÚuÄúÖµq÷ˆ¯P-ÅÊ#‚<äA <¬J?3s€:J (¢Š *½ý¾§§\Ø^GæZÝDðÌ›ˆÜŒa‘ÈÈ'¥X¢€<ÿ áEóÛèú‡„o$žKÿ Ý½£<êÁ¥€³d ýÕ+ª	Â¨9Áèçzø›ÃtMy$Ž-/]A¤_¨CÍÀÜÖîvœ³±ù!UH$dcÑ( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ªz®•c®iwf§mÍÂl–'èÃù‚#@#UÊ(Êô­Vûá^©oáÏÜÉsá[‡òôf^¶§µ¼ç  }Öè ì ˆýR³õÍ.ßZÐïtë«(/až&So;”IU€%yæ •ê9óg„uß|+ñå¢xÑ5(4ÙíÅ‹ùìÓ"Ä 2ˆb¬#,8]ÛC¸'õORÕ´ÝÝn5MBÒÆp‹%ÔË–Á8ˆÀ'Æ©hRYÃyo©Áwk-ÚY,ÖdÜ"ÌäVhò%”e°>eç‘@QE QE QX~%ñ,>·ÞKíRõÌVt$	.dÆO'…E³žr{ x—Ä°øzÞKy/µK×1XiÐ$¹“<žrÎxQÉìxjm:â}kZ¸ŽûÄW¨âåÁr €V%?‹™¹À†¼56q>µ­\G}â+Ôqr€ˆà9@+ŸÅÌÜà’€
+(¢€
+(¢€
+(¢€9ˆ~OxSÒü:èÄe³ha:Œ¦¸\Ÿ”ž>Va‘š±àÂ]à½/\1ùr]EûÔ€$RQöŒŸ—r¶2sŒgšè+Íü.éá_Š¾#ðÄ×™‡ZÆ¹`ŽW!Ü°IÀ%‰\…°‰œç9 ôŠ(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+ÏÖt=/Ä:sØjö^Ú¶NÉ“;InSÕ[á†Ï´( O\Ò'Ó¼#§éZ=…Þ –—¶m)$A£‚„—n]©Á’Xü¹'æjçõ}#XÕ&ÖµðµÝ¸¿¸Òãò!».¥KiŒ²LÌ²S´ˆ×Ê)ùGOL¢€<¯\ðÖ«y¦ßè¶ž»·Ñÿ ·až-ÚÛoÙR%-åDÒˆðÓFX¤€¯ï·lfýKÂþ)Õþ/‡¯ô'ñ
+\4–ÁbbáÐ‡Úˆ#&0«‚>èP¼×²Q@â†Ðjºýõ¯Ãûã‘#Þ3jQyÏ ¸ˆ8pgÆãrá‰f˜ÃÃCÅñ££ØØ[h“Éw©ÉmmeŒ‚Ì,Ç—,ž_’Lr…ÐGµB“ìP?…QÂZLZ¼SÇ©EiW"yGiB³V`Ûˆ-œçžpr+‹¸Ð<oáïê¾(Ó×Mñ,w¨±‹k†6×PD¶Áœ¢ Ü¬ÄãyRq»“é”P¤üXð¶¡y=üóè7ðröšÜbÕÂáH9'o;†wŒs]Ågë:—â9ì5{/m['dÉ¤‚7)ê­‚pÃgƒ\?ü+½wÂðÅâyíaùŸÙZ®.-
+ïÝ±â\3çfÈÉn H¢¼îO‰³xeáµñÞ…w¤»?—ý¥j¦âÆ\)Ã_KlFT°'¹Æ›«iºÍ»\iz…¥ô
+åKY–U€pJ’3‚=Å \¢Š( ¢Š( ¯?ø«æŸ§i^0Ó-¼ûïÝý¡Ð¹í\l ÃFÒX•Uˆ#úrÿ ôGÄžÔôÍ*ö{[¹"%£íòXœa_¡ Ž¼år¤¤‚xn­â¸·–9 •Ç$l]HÈ Ž#œÔ•àÿ ³wÛ-ÿ á*Ó®¼ø¾Í-¾m¥ÊùR5_å?u¾E¿Ê3Ò½â€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+àïþè¿ÚŸÛ¸»ðÖ¨.–Á"sòíBFÖ@Pƒhnsž£¼¢€<î[ÇþB<A¦Gâ=]€½ÑÓmÚ®ã´½¹ 9;”b?º‰'©ÜðÇÄ?xº(²õhÔ¼)˜G8`»˜l<¶rW+ÁÁ8®¢¹¿øÃž3·)¬éÑÉ8M±ÝÇòOŒ8ä€X§+žH4ÐG<3<É±»Âû%U`J6ÐØoCµ”àö ÷©+æË/üeð¿‹$Õ4÷“Qœ¼m<çQWŠð*à,‚GV`+È	÷?
+xŠóÄwÚZö‹k)Šk{”%'¸"œu^ŸB¤€tW›è^-ñ>­âC¤l|ÈeœÈÍ£Í2Å×‘(Žc9Ì›Hle‚“œÖ§…¼g«ø’þîáÈà‚ÃSŸN¼¹[ðê¹Eg€S¸Þ¤nù‚ j[øRÞÏÇ7~(µ¹ž9/­–»‰ŽgR¾\¸Ïª¬¿Fãvî‚¼ÎÏâü7–ºÄ±èÒ<¶VWðÁÀc,0Êc,ÎTG‚y'”a_œ€¨ÿ „­­-õ™um6KWÓ,†¢ñE*ÊÆm þåÁPYGvÏ %Éé¾"ñ5Î²Úeÿ …#³s¦Øç[æ–.à¢Ýä€¯Ô»°Fêü]q¦|=Ô|Gw§Ïuqe-ÒÉk‚C˜î<Ÿ»]¹ÜW!Nâ	 …Éü?ñ²øïF¼ÔRÒ;t¶½{EòæiPª­¼D ý
+ƒëè:Ê (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š ÇÑü1¦è2¼–ùwï,“j¦]·³l‘ÙwÉ-ŒòyäÔz„t\\Ï¥ÇwÜ»I0’úyVGb9Wr£æÆ}ërŠ ãÿ áXxOþ}/¿ãÓì?ò»ÿ ùãþ·ý_û==«bé1^\ÝgžK›E²œ]]Ë:K
+Œdv*z·$dîrNY³±E sú‚ôM/dKäÛhÖQîÔ®_É…¶åcÝ!òþâr¸#hÁâ«¿ÃßK¦]i³A}=ÖLÖój—R# ”¶C†.7œžy9ê( ý'E²Ñ"ž;%Ÿý"_:gžæIÝßj¦KÈÌßuuíZQ@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@ÿÙ
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gstatic.com/images/branding/product/1x/translate_24dp.png
+
+‰PNG
+
+   IHDR         àw=ø  IDATxb HôNN]n…Q ísT=SïµÆU\Û¶±ÛÉØ77·çôž•|q»ÖŽ³÷ýt!]tâ_x\ ¢à˜ ùaò• ¹";nNû­@ñ	+:!ÀÅGG²~+ÀÄq&gBÁ¿ÿý@DN$ß=‘£`ƒÄ2ã—Lš(ÏW	Hä)Ì£xÜ.WÁP˜ÁÁAˆÐßßp:=éqüòÂ0y$ pÃ™qìQ›Eéwô<	$ŠËñÐcçp`dÕöI,ÀG9"/?›Ál¶S„äDœœ	”Qö‡ññ	|ÒÀÃÏxxØÌá¾{|DN¹ëEµÆ§‹É¿ …dÐ¿èà-*»sÈ–¸îÔ8vtêÁb±Ëåúq€dŒá	T¼ää×j0>1„Þ9Ir³D^|6No›Í›+d˜èëë‹HÆ`#È¦-y!;ï¡Ý2‰Ÿµ\Dž)°°¼×í•à†Ò£¸©L‚›+ä¸µZ…[ªT˜ £ôAh‹kpè)w9¤÷ûîò˜EYˆµ'ÇñÚƒ—ÐÚÙ‡¤—nã³µ©G­ –b¤ÛÆáÀphUŠ»*VžFyõ3ìU]Ä·u°]r
+ív;x½^’Ç²Di*2åQåÒ ºãÁRå%ÜP&Áú–Np:´è,’:À„ŒŒ0‰òt‘UÇGpk©
+wHNãÙ{‘„Ûí¿ß¤Æ#Ab&'Ò$A<~£ºÔz(=~ÏÝyŒ,àóùbA.•”‘ÎH‡n{Q£1‚Þ`„Ò“ñcCKr çèHVš4L—òÀH‹a©$Dš„Ç´£—†Y}bµZ#ÚMqë0åW¯½{?Í[Tô½"pAá+<¤l@ƒÁ´ƒŠüv€®-»ê¿E¢ZQ=j˜Ìq¶¸€Çãù½Àayó®E%o±J^ZÐéŒ`Ž°÷[ŠŠ–¹ÕòZloWƒZ­ƒAÉ‹¬V+=|Cƒ:wÊÿ¸¾‹ÇÅe¿.?’    IEND®B`‚
+------MultipartBoundary--xrqpmDqXVFOQMj5jrOPdqfuostueeUQL7nCi8QmGdF------
